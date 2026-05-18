@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 
-class JSONStorage:
+class Storage:
     def __init__(self, filepath):
     
         self.filepath = filepath

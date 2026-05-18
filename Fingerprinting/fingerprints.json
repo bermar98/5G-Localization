@@ -2948,5 +2948,2200 @@
                 "rssi": -72
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-18 14:22:08",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -68
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -78
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -71
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:22:16",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -68
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -78
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -61
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -71
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:22:25",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -72
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -73
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -62
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:02",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -77
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -66
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -74
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -74
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:05",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -77
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -66
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -74
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -74
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:09",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -77
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -66
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -74
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -74
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:12",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -77
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -72
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -73
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -65
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -65
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:15",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -67
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -75
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -74
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:19",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -67
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -75
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -74
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:22",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -67
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -75
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -74
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:26",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -60
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -73
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -74
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -60
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:29",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -60
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -73
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -74
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -60
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:33",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -60
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -85
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -73
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -74
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -64
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -60
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:36",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -78
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -70
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -75
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:39",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -78
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -70
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -75
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:43",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -78
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -70
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -75
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -70
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:46",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -78
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -74
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -70
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:50",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -78
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -74
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -70
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:53",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -78
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -84
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -74
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -70
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -63
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:23:57",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -73
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -86
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -66
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -76
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:24:00",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -73
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -86
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -66
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -76
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:24:04",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -73
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -86
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -66
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -76
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -56
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -54
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -59
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -45
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:24:07",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -66
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -73
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -86
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -73
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -63
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -66
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -58
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -65
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -66
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -72
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-05-18 14:24:11",
+        "position": {
+            "x": -0.36821246687293563,
+            "y": 0.004653856289475566,
+            "theta": -0.001769465277902782
+        },
+        "fingerprint": [
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -60
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "bssid": "b0:0a:d5:4e:74:9d:",
+                "rssi": -81
+            },
+            {
+                "ssid": "ZTE_5GCPE_749D",
+                "bssid": "b0:0a:d5:4d:74:9d:",
+                "rssi": -76
+            },
+            {
+                "ssid": "MOKI-5G_EXT",
+                "bssid": "9c:3d:cf:ea:cd:2a:",
+                "rssi": -86
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cd:",
+                "rssi": -68
+            },
+            {
+                "ssid": "Net-P",
+                "bssid": "90:72:40:19:b7:cc:",
+                "rssi": -78
+            },
+            {
+                "ssid": "mimm_activeshuttle_50",
+                "bssid": "ec:75:0c:ec:bc:25:",
+                "rssi": -46
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "62:22:32:5e:6e:8e:",
+                "rssi": -60
+            },
+            {
+                "ssid": "MEW",
+                "bssid": "60:22:32:5e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8e:",
+                "rssi": -60
+            },
+            {
+                "ssid": "MCW",
+                "bssid": "62:22:32:1e:6e:8d:",
+                "rssi": -57
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8e:",
+                "rssi": -60
+            },
+            {
+                "ssid": "MGS",
+                "bssid": "62:22:32:2e:6e:8d:",
+                "rssi": -55
+            },
+            {
+                "ssid": "mimm_activeshuttle_24",
+                "bssid": "ec:75:0c:ec:bc:24:",
+                "rssi": -44
+            },
+            {
+                "ssid": "MEDIC",
+                "bssid": "38:c0:ea:46:3d:71:",
+                "rssi": -71
+            }
+        ]
     }
 ]
