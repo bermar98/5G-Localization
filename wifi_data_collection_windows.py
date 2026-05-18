@@ -1,135 +1,135 @@
 import subprocess
-import time
-import csv
-import math
-import threading
-
 import re
-import os
+import csv
+import time
+from datetime import datetime
 
-class Collection:
 
-    def __init__(self):
-        self.collecting = False
+CSV_FILE = "wifi_rssi_dataset.csv"
 
-        self.timestamps = []
-        self.wifi_data = []
 
-        self.mac_list = []
-        self.mac_list_len = 0
+def scan_wifi():
 
-    def keyboard_listener(self):
-        while True:
-            cmd = input("ENTER = Start/Stop | q = Beenden: ").lower()
+    result = subprocess.check_output(
+        ["netsh", "wlan", "show", "networks", "mode=bssid"],
+        text=True,
+        encoding="cp1252",
+        errors="ignore"
+    )
 
-            if cmd == "":
-                self.collecting = not self.collecting
+    raw_text = result.splitlines()
 
-                if self.collecting:
-                    print("Messung gestartet...")
-                else:
-                    print("Messung gestoppt.")
+    networks = []
 
-            elif cmd == "q":
-                self.collecting = False
-                break
+    current_ssid = None
+    current_bssid = None
 
-    def scan_wifi(self):
-        result = subprocess.check_output(
-            "netsh wlan show networks mode=bssid",
-            shell=True,
-            encoding="utf-8",
-            errors="ignore"
+    for line in raw_text:
+
+        line = line.strip()
+
+        # -----------------------------
+        # SSID
+        # -----------------------------
+        ssid_match = re.search(
+            r"SSID\s+\d+\s+:\s(.+)",
+            line
         )
-        return result
 
-    def extract_data(self, raw_text):
+        if ssid_match:
+            current_ssid = ssid_match.group(1).strip()
 
-        addresses = re.findall(r"([0-9A-Fa-f:]{17})", raw_text)
+        # -----------------------------
+        # BSSID
+        # -----------------------------
+        bssid_match = re.search(
+            r"BSSID\s+\d+\s+:\s([0-9A-Fa-f:]{17})",
+            line
+        )
 
-        signals_raw = re.findall(r"Signal\s*:\s*(\d+)%", raw_text)
+        if bssid_match:
+            current_bssid = bssid_match.group(1)
 
-        signals = []
+        # -----------------------------
+        # Signal
+        # -----------------------------
+        signal_match = re.search(
+            r"Signal\s+:\s+(\d+)%",
+            line
+        )
 
-        for s in signals_raw:
-            percent = int(s)
+        if signal_match:
 
-            # Umrechnung grob in dBm
-            dbm = (percent / 2) - 100
-            signals.append(int(dbm))
+            signal_percent = int(signal_match.group(1))
 
-        return addresses, signals
+            # Approximation
+            rssi_dbm = (signal_percent / 2) - 100
 
-    def collect(self):
+            networks.append({
+                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "ssid": current_ssid,
+                "bssid": current_bssid,
+                "signal_percent": signal_percent,
+                "rssi_dbm": round(rssi_dbm, 2)
+            })
 
-        listener = threading.Thread(target=self.keyboard_listener)
-        listener.daemon = True
-        listener.start()
+    return networks
 
-        print("WLAN Logger bereit.")
 
-        while listener.is_alive():
+def save_to_csv(networks):
 
-            if self.collecting:
+    file_exists = False
 
-                raw = self.scan_wifi()
+    try:
+        with open(CSV_FILE, "r", encoding="utf-8"):
+            file_exists = True
+    except FileNotFoundError:
+        pass
 
-                addresses, signals = self.extract_data(raw)
+    with open(CSV_FILE, "a", newline="", encoding="utf-8") as csvfile:
 
-                timestamp = time.time()
+        fieldnames = [
+            "timestamp",
+            "ssid",
+            "bssid",
+            "signal_percent",
+            "rssi_dbm"
+        ]
 
-                self.timestamps.append(timestamp)
-                self.wifi_data.append([addresses, signals])
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-                for mac in addresses:
-                    if mac not in self.mac_list:
-                        self.mac_list.append(mac)
-                        self.mac_list_len += 1
+        if not file_exists:
+            writer.writeheader()
 
-                print("Messung", len(self.timestamps), "gespeichert")
+        for network in networks:
+            writer.writerow(network)
 
-                time.sleep(2)
 
-            else:
-                time.sleep(0.2)
+def main():
 
-    def make_csv(self, file_path):
+    print("📡 WLAN Scanner gestartet...\n")
 
-        file_name = os.path.join(file_path, "wifi_data.csv")
+    while True:
 
-        with open(file_name, "w", newline="") as f:
+        networks = scan_wifi()
 
-            writer = csv.writer(f)
+        print(f"\nGefundene Netzwerke: {len(networks)}\n")
 
-            header = ["timestamp"] + self.mac_list
-            writer.writerow(header)
+        for n in networks:
 
-            for idx, entry in enumerate(self.wifi_data):
+            print(
+                f"SSID: {n['ssid']:25} "
+                f"BSSID: {n['bssid']} "
+                f"RSSI: {n['rssi_dbm']} dBm"
+            )
 
-                line = [math.nan] * (self.mac_list_len + 1)
-                line[0] = self.timestamps[idx]
+        save_to_csv(networks)
 
-                addresses = entry[0]
-                signals = entry[1]
+        print("\nCSV gespeichert.")
+        print("-" * 70)
 
-                for i in range(self.mac_list_len):
-
-                    mac = self.mac_list[i]
-
-                    if mac in addresses:
-                        pos = addresses.index(mac)
-                        line[i + 1] = signals[pos]
-
-                writer.writerow(line)
-
-        print("CSV gespeichert:")
-        print(file_name)
+        time.sleep(5)
 
 
 if __name__ == "__main__":
-
-    file_path = r"C:\Dokumente\Studium\Master\Masterarbeit\Code"
-
-    a = Collection()
-    a.collect()
-    a.make_csv(file_path)
+    main()
