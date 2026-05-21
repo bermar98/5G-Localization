@@ -41,6 +41,7 @@ class AGVPosition:
                 "y": pos["y"],
                 "theta": pos["theta"]
             }
+        
 
         except Exception as e:
 

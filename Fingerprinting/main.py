@@ -1,15 +1,15 @@
 # main Datei zur Fingerprinting von WiFi Signalstärken
 # Aus den anderen Dateien die einzelnen Klassen importieren
-from agv_position import AGVPosition
-from wifi_scan import WiFiScanner
-from fingerprint import FingerprintBuilder
-from json_storage import Storage
+from positioning.agv_position import AGVPosition
+from wifi.wifi_scan import WiFiScanner
+from wifi.fingerprint import FingerprintBuilder
+from storage.json_storage import Storage
 import time
 
 
 def main():
     # Instanz der Klassen definieren:
-    storage = Storage("C:\Dokumente\Studium\Master\Masterarbeit\Code\Fingerprinting/fingerprints.json")
+    storage = Storage("C:\Dokumente\Studium\Master\Masterarbeit\Code\Fingerprinting\data/fingerprints.json")
     agv = AGVPosition()
     wifi = WiFiScanner()
     fingerprint_builder = FingerprintBuilder()
