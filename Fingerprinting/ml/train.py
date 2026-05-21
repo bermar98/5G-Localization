@@ -8,11 +8,6 @@ DATA_PATH = "C:\Dokumente\Studium\Master\Masterarbeit\Code\Fingerprinting\data/f
 
 def main():
 
-    ''' with open(
-        "fingerprints.json",
-        "r",
-        encoding="utf-8"
-    ) as file:'''
     with open(DATA_PATH, "r", encoding="utf-8") as file:
         data = json.load(file)
 
