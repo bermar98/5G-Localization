@@ -7,8 +7,8 @@ from storage.json_storage import Storage
 import time
 from pathlib import Path
 
-
-BASE_DIR = Path(__file__)
+print(Path(__file__).resolve())
+BASE_DIR = Path(__file__).parent
 DATA_PATH = BASE_DIR / "data" / "fingerprints.json"
 
 def main():

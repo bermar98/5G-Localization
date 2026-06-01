@@ -1,11 +1,10 @@
 import json
-
 from pathlib import Path
 from dataset_builder import DatasetBuilder
 from model import IndoorLocalizationModel
 
 BASE_DIR = Path(__file__).parent
-DATA_PATH = BASE_DIR / "data" / "fingerprints.json"
+DATA_PATH = BASE_DIR.parent / "data" / "fingerprints.json"
 
 def main():
 

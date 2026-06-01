@@ -20,7 +20,7 @@ class AGVPosition:
 
     def get_position(self):
 
-        try:
+        '''try:
 
             response = requests.get(
                 self.url,
@@ -34,17 +34,17 @@ class AGVPosition:
 
             droid = data[0]
 
-            pos = droid["fromDroid"]["agvPosition"]
+            pos = droid["fromDroid"]["agvPosition"]'''
 
-            return {
-                "x": pos["x"],
-                "y": pos["y"],
-                "theta": pos["theta"]
-            }
+        return {
+            "x": 1,  #pos["x"],
+            "y": 1,  #pos["y"],
+            "theta": 0  #pos["theta"]
+        }
         
 
-        except Exception as e:
+    ''' except Exception as e:
 
-            print("Fehler bei Positionsabfrage:", e)
+        print("Fehler bei Positionsabfrage:", e)
 
-            return No
+        return No'''
