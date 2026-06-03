@@ -6,16 +6,11 @@ from dataset_builder import DatasetBuilder
 
 BASE_DIR = Path(__file__).parent
 DATA_PATH = BASE_DIR.parent / "data" / "fingerprints.json"
-OUTPUT_DIR = BASE_DIR.parent / "data" / "splits"
+SPLITS_DIR = BASE_DIR.parent / "data" / "splits"
 
 
-def split_and_save(test_size=0.2, random_state=42):
+def split_and_save(data, test_size=0.2, random_state=42):
 
-    # Daten laden
-    with open(DATA_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    print(f"Gesamt-Samples: {len(data)}")
 
     # Feature-Vektoren bauen
     X, y, all_bssids = DatasetBuilder.build_dataset(data)
@@ -31,19 +26,18 @@ def split_and_save(test_size=0.2, random_state=42):
     print(f"Testdaten:       {len(X_test)} Samples")
 
     # Speichern
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    SPLITS_DIR.mkdir(parents=True, exist_ok=True)
 
-    np.save(OUTPUT_DIR / "X_train.npy", X_train)
-    np.save(OUTPUT_DIR / "X_test.npy",  X_test)
-    np.save(OUTPUT_DIR / "y_train.npy", y_train)
-    np.save(OUTPUT_DIR / "y_test.npy",  y_test)
+    np.save(SPLITS_DIR / "X_train.npy", X_train)
+    np.save(SPLITS_DIR / "X_test.npy",  X_test)
+    np.save(SPLITS_DIR / "y_train.npy", y_train)
+    np.save(SPLITS_DIR / "y_test.npy",  y_test)
 
     # BSSID-Liste speichern — wichtig für spätere Vorhersagen!
-    with open(OUTPUT_DIR / "all_bssids.json", "w") as f:
+    with open(SPLITS_DIR / "all_bssids.json", "w") as f:
         json.dump(all_bssids, f)
 
-    print(f"Gespeichert in: {OUTPUT_DIR}")
+    print(f"Gespeichert in: {SPLITS_DIR}")
 
+    return X_train, X_test, y_train, y_test, all_bssids
 
-if __name__ == "__main__":
-    split_and_save(test_size=0.2, random_state=42)
