@@ -1,2303 +1,1517 @@
 [
     {
-        "timestamp": "2026-06-01 12:23:37",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
+        "timestamp": "2026-06-08 10:31:02",
+        "position": null,
         "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
                 "rssi": -55
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -60
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:23:40",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
                 "rssi": -55
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:23:43",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:23:46",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:23:49",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
                 "rssi": -59
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -65
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -68
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -79
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -70
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -59
             }
         }
     },
     {
-        "timestamp": "2026-06-01 12:23:52",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
+        "timestamp": "2026-06-08 10:31:11",
+        "position": null,
         "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -54
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -52
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
                 "rssi": -59
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:23:55",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:23:59",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -56
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:02",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -56
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:05",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -56
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:08",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:11",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:14",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -64
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:17",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -56
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -64
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:20",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:23",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
                 "rssi": -54
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:27",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:30",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:33",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:36",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
                 "rssi": -51
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:39",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:42",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -65
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:45",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -65
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:48",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -65
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:52",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -65
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:55",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
                 "rssi": -59
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -51
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -67
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -68
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -82
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
                 "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:24:58",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:01",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -54
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -64
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:04",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -64
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:07",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:10",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:14",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -81
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:17",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:20",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:23",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:26",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
                 "rssi": -84
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -65
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -58
             }
         }
     },
     {
-        "timestamp": "2026-06-01 12:25:29",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
+        "timestamp": "2026-06-08 10:31:17",
+        "position": null,
         "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -66
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -79
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:32",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
                 "rssi": -56
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -66
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -79
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:36",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:39",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:42",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:45",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:48",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:51",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:54",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:25:57",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:01",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:04",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
                 "rssi": -61
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -48
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -51
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -61
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -48
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -67
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -85
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
                 "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:07",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -81
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:10",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:13",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -54
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:16",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
                 "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:19",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:23",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -87
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:26",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:29",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:32",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -84
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:35",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -56
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:38",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -54
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
                 "rssi": -69
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:41",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -69
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:44",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:47",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:51",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:54",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:26:57",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -51
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:00",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:03",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -60
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:06",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -80
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:09",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
                 "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -87
             }
         }
     },
     {
-        "timestamp": "2026-06-01 12:27:12",
+        "timestamp": "2026-06-08 10:31:22",
         "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
+            "x": 6.679388551220612,
+            "y": 5.849047810946906,
+            "theta": 0.06026354804635048
         },
         "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -87
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:15",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -87
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:18",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -87
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:22",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:25",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:28",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -62
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -82
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:31",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -61
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:34",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:37",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:40",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
                 "rssi": -56
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:43",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -55
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -63
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:46",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:50",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:53",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:56",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:27:59",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -57
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:02",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:05",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:08",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -51
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -59
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:11",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -51
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:14",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:17",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:21",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:24",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -58
-            },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -83
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:27",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -52
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
                 "rssi": -65
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -91
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
-            }
-        }
-    },
-    {
-        "timestamp": "2026-06-01 12:28:30",
-        "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
-        },
-        "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
-            },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
                 "rssi": -65
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -91
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -61
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -72
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -68
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -82
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -83
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -84
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -68
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -64
             }
         }
     },
     {
-        "timestamp": "2026-06-01 12:28:33",
+        "timestamp": "2026-06-08 10:31:26",
         "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
+            "x": 6.679388551220612,
+            "y": 5.849047810946906,
+            "theta": 0.06026354804635048
         },
         "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
-                "rssi": -53
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -65
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -63
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -63
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -79
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -63
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -67
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -82
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -77
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -87
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -66
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:30",
+        "position": {
+            "x": 6.679357903375841,
+            "y": 5.849065828969591,
+            "theta": 0.06030740216374397
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -52
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
                 "rssi": -58
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -91
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -58
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -66
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -79
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -58
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -70
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -68
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -82
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -82
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -87
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61
             }
         }
     },
     {
-        "timestamp": "2026-06-01 12:28:36",
+        "timestamp": "2026-06-08 10:31:34",
         "position": {
-            "x": 1,
-            "y": 1,
-            "theta": 0
+            "x": 6.679357903375841,
+            "y": 5.849065828969591,
+            "theta": 0.06030740216374397
         },
         "fingerprint": {
-            "74:42:7f:d6:23:f1:": {
-                "ssid": "Lubino Mreza",
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -52
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -53
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -58
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -53
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -86
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -83
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -58
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -52
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -67
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -71
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -82
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -79
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -85
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -56
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:39",
+        "position": {
+            "x": 6.679357903375841,
+            "y": 5.849065828969591,
+            "theta": 0.06030740216374397
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -40
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -52
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -58
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
                 "rssi": -54
             },
-            "74:42:7f:d6:23:f2:": {
-                "ssid": "Lubino Mreza",
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -86
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -83
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
                 "rssi": -58
             },
-            "c0:d7:aa:05:a5:e3:": {
-                "ssid": "BARTOL LUXURY APARTMENTS KRK",
-                "rssi": -91
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -54
             },
-            "74:42:7f:d5:89:ba:": {
-                "ssid": "LUBINO",
-                "rssi": -86
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -70
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -77
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -83
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -82
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -61
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:42",
+        "position": {
+            "x": 6.678798377758003,
+            "y": 5.849184670202846,
+            "theta": 0.059701114892959595
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -35
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -45
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -58
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -45
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -58
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -45
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -62
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -78
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -49
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:46",
+        "position": {
+            "x": 6.6785645069024575,
+            "y": 5.849169087467193,
+            "theta": 0.05952749773859978
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -37
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -45
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -58
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -45
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -58
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -45
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -62
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -78
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -49
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:49",
+        "position": {
+            "x": 6.67869310302677,
+            "y": 5.849218854544101,
+            "theta": 0.059543415904045105
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -37
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -45
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -58
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -45
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -58
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -45
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -62
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -78
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -49
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:53",
+        "position": {
+            "x": 6.67869310302677,
+            "y": 5.849218854544101,
+            "theta": 0.059543415904045105
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -36
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -59
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -59
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -80
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -70
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -59
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -69
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -74
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -78
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -65
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:31:57",
+        "position": {
+            "x": 6.67869310302677,
+            "y": 5.849218854544101,
+            "theta": 0.059543415904045105
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -34
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -59
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -59
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -80
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -70
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -59
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -69
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -74
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -78
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -65
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:32:00",
+        "position": {
+            "x": 6.6788162899810715,
+            "y": 5.849464233415417,
+            "theta": 0.06016949191689491
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -34
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -59
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -59
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -80
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -87
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -88
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -70
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -85
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -59
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -69
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -74
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -78
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -65
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:32:04",
+        "position": {
+            "x": 6.6788162899810715,
+            "y": 5.849464233415417,
+            "theta": 0.06016949191689491
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -37
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -49
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -49
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -80
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -84
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -80
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -49
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -59
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -69
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -75
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -77
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -51
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:32:08",
+        "position": {
+            "x": 6.6788162899810715,
+            "y": 5.849464233415417,
+            "theta": 0.06016949191689491
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -35
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -49
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -49
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -80
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -84
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -80
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -49
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -59
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -69
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -75
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -77
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -51
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:32:11",
+        "position": {
+            "x": 6.678876955266183,
+            "y": 5.84928113005417,
+            "theta": 0.05987735092639923
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -35
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -49
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -49
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -80
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -84
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -80
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -49
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -59
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -69
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -75
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -77
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -51
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-08 10:32:15",
+        "position": {
+            "x": 6.678876955266183,
+            "y": 5.84928113005417,
+            "theta": 0.05987735092639923
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -34
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -60
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -65
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -60
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -77
+            },
+            "a0:e4:cb:7f:fa:e2:": {
+                "ssid": "ITA",
+                "rssi": -81
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -78
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -79
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -78
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -80
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -65
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -60
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -68
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -74
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -75
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -77
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -81
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -64
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60
             }
         }
     }
