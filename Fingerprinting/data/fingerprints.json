@@ -1033,5 +1033,4365 @@
                 "distance": 46.42
             }
         }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:30",
+        "position": {
+            "x": 1.9392916558928945,
+            "y": 4.638081449937008,
+            "theta": 1.0689126253128052
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:33",
+        "position": {
+            "x": 2.1063741323568266,
+            "y": 4.142936416725348,
+            "theta": 1.3412986993789673
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69,
+                "distance": 11.86
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -58,
+                "distance": 4.64
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:37",
+        "position": {
+            "x": 2.3423017021523087,
+            "y": 2.3914767305198623,
+            "theta": 1.5193010568618774
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:40",
+        "position": {
+            "x": 2.310338683516637,
+            "y": 0.873359804845812,
+            "theta": 1.672921895980835
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:44",
+        "position": {
+            "x": 2.30682298461479,
+            "y": 0.8381084353494046,
+            "theta": 1.849969744682312
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83,
+                "distance": 39.14
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82,
+                "distance": 35.94
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:47",
+        "position": {
+            "x": 2.3012679720163938,
+            "y": 0.834841034032678,
+            "theta": 2.8325822353363037
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83,
+                "distance": 39.14
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82,
+                "distance": 35.94
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:51",
+        "position": {
+            "x": 2.2878024176606067,
+            "y": 0.8400401562536999,
+            "theta": -3.1218037605285645
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83,
+                "distance": 39.14
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82,
+                "distance": 35.94
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:54",
+        "position": {
+            "x": 2.1950449938181453,
+            "y": 1.2954219326818546,
+            "theta": -1.4917141199111938
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83,
+                "distance": 39.14
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82,
+                "distance": 35.94
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:57:58",
+        "position": {
+            "x": 2.3161251845757893,
+            "y": 2.4996077226727635,
+            "theta": -1.602398157119751
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83,
+                "distance": 39.14
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82,
+                "distance": 35.94
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:01",
+        "position": {
+            "x": 2.1126111096325157,
+            "y": 4.151089006946606,
+            "theta": -1.701684594154358
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -83,
+                "distance": 39.14
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -82,
+                "distance": 35.94
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:05",
+        "position": {
+            "x": 1.7560523802915478,
+            "y": 4.9552336492088855,
+            "theta": -2.3476035594940186
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:09",
+        "position": {
+            "x": 0.13570293302259628,
+            "y": 5.471422177687785,
+            "theta": 3.129668712615967
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:12",
+        "position": {
+            "x": -0.9026567279339162,
+            "y": 5.238002165426579,
+            "theta": 2.630434274673462
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:16",
+        "position": {
+            "x": -1.1547503991806707,
+            "y": 5.096047650090092,
+            "theta": 2.60184645652771
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:19",
+        "position": {
+            "x": -1.1546192712557897,
+            "y": 5.095938316552171,
+            "theta": 2.6020376682281494
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -91,
+                "distance": 77.43
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:23",
+        "position": {
+            "x": -1.1546192712557897,
+            "y": 5.095938316552171,
+            "theta": 2.6020376682281494
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -87,
+                "distance": 55.05
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:26",
+        "position": {
+            "x": -1.1544936059941904,
+            "y": 5.095809846882396,
+            "theta": 2.6019418239593506
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -87,
+                "distance": 55.05
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:30",
+        "position": {
+            "x": -1.1544936059941904,
+            "y": 5.095809846882396,
+            "theta": 2.6019418239593506
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -87,
+                "distance": 55.05
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:33",
+        "position": {
+            "x": -1.1543091223685948,
+            "y": 5.0961529785933095,
+            "theta": 2.601810932159424
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:37",
+        "position": {
+            "x": -1.368930559147905,
+            "y": 4.999714077943636,
+            "theta": 2.8587870597839355
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:40",
+        "position": {
+            "x": -3.0372479316775807,
+            "y": 5.089335438115825,
+            "theta": -2.966810464859009
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:44",
+        "position": {
+            "x": -3.4150385611558853,
+            "y": 5.382204616150268,
+            "theta": -1.818671464920044
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -71,
+                "distance": 14.07
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -57,
+                "distance": 4.26
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:47",
+        "position": {
+            "x": -3.4711870784297787,
+            "y": 6.358614838683941,
+            "theta": -1.3636353015899658
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:51",
+        "position": {
+            "x": -3.4520734681955503,
+            "y": 7.864795707810728,
+            "theta": -1.7987581491470337
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:55",
+        "position": {
+            "x": -3.5892324917625515,
+            "y": 8.34445104299342,
+            "theta": -1.8409733772277832
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -86,
+                "distance": 50.55
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:58:58",
+        "position": {
+            "x": -3.596859596678841,
+            "y": 8.346950978449236,
+            "theta": -2.8907082080841064
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:02",
+        "position": {
+            "x": -3.598735586767175,
+            "y": 8.346236970172164,
+            "theta": -2.6435370445251465
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69,
+                "distance": 11.86
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:06",
+        "position": {
+            "x": -3.587378773208382,
+            "y": 8.344120832048645,
+            "theta": -2.2553906440734863
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69,
+                "distance": 11.86
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:09",
+        "position": {
+            "x": -3.589040734564424,
+            "y": 8.335407880488049,
+            "theta": 2.681319236755371
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69,
+                "distance": 11.86
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:13",
+        "position": {
+            "x": -3.5638391132911345,
+            "y": 8.279185527518628,
+            "theta": 1.1151424646377563
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -69,
+                "distance": 11.86
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:17",
+        "position": {
+            "x": -3.3062940588332257,
+            "y": 7.870847899526737,
+            "theta": 1.1345723867416382
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -55,
+                "distance": 3.59
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:20",
+        "position": {
+            "x": -3.2215108343869794,
+            "y": 7.035993821354566,
+            "theta": 1.779581904411316
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:24",
+        "position": {
+            "x": -3.456015045992743,
+            "y": 5.345912834440867,
+            "theta": 1.409228801727295
+        },
+        "fingerprint": {
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -66,
+                "distance": 9.18
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:28",
+        "position": {
+            "x": -2.4914000438920914,
+            "y": 4.875061987028495,
+            "theta": 0.027152137830853462
+        },
+        "fingerprint": {
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -54,
+                "distance": 3.3
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:31",
+        "position": null,
+        "fingerprint": {
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -54,
+                "distance": 3.3
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -68,
+                "distance": 10.89
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:40",
+        "position": null,
+        "fingerprint": {
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:48",
+        "position": null,
+        "fingerprint": {
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -58,
+                "distance": 4.64
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -56,
+                "distance": 3.91
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -59,
+                "distance": 5.05
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -72,
+                "distance": 15.32
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -90,
+                "distance": 71.1
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -79,
+                "distance": 27.83
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 09:59:57",
+        "position": null,
+        "fingerprint": {
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -58,
+                "distance": 4.64
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -74,
+                "distance": 18.17
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -67,
+                "distance": 10.0
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-09 10:00:06",
+        "position": null,
+        "fingerprint": {
+            "60:22:32:5e:6e:8d:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "62:22:32:5e:6e:8e:": {
+                "ssid": "MEW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "ec:75:0c:ec:bc:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -58,
+                "distance": 4.64
+            },
+            "62:22:32:2e:6e:8e:": {
+                "ssid": "MGS",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:2e:6e:8d:": {
+                "ssid": "MGS",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "62:22:32:1e:6e:8e:": {
+                "ssid": "MCW",
+                "rssi": -64,
+                "distance": 7.74
+            },
+            "62:22:32:1e:6e:8d:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "00:e6:0e:3e:10:98:": {
+                "ssid": "KNGUEST",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:97:": {
+                "ssid": "KNATWH",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "90:72:40:19:b7:cc:": {
+                "ssid": "Net-P",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "90:72:40:19:b7:cd:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "40:5f:7d:16:ef:45:": {
+                "ssid": "HH71VM_EF45_2.4G",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "9c:3d:cf:ea:cd:2a:": {
+                "ssid": "MOKI-5G_EXT",
+                "rssi": -89,
+                "distance": 65.29
+            },
+            "00:e6:0e:3e:10:94:": {
+                "ssid": "nkceWarehouseA",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "9c:3d:cf:ea:cd:28:": {
+                "ssid": "MOKI",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:96:": {
+                "ssid": "KuehneNagel",
+                "rssi": -81,
+                "distance": 33.0
+            },
+            "00:e6:0e:3e:10:95:": {
+                "ssid": "KnEmeaMD1",
+                "rssi": -80,
+                "distance": 30.3
+            },
+            "b0:0a:d5:4d:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D",
+                "rssi": -78,
+                "distance": 25.55
+            },
+            "38:c0:ea:46:3d:71:": {
+                "ssid": "MEDIC",
+                "rssi": -65,
+                "distance": 8.43
+            },
+            "ec:75:0c:ec:bc:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -60,
+                "distance": 5.5
+            },
+            "b0:0a:d5:4e:74:9d:": {
+                "ssid": "ZTE_5GCPE_749D_5G",
+                "rssi": -88,
+                "distance": 59.95
+            }
+        }
     }
 ]
