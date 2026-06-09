@@ -9,6 +9,11 @@ class WiFiScanner:
         wifi = PyWiFi()
 
         self.iface = wifi.interfaces()[0]
+    
+    def _rssi_to_distance(self, rssi, tx_power=-40, path_loss_exp=2.7):
+        distance = 10 ** ((tx_power - rssi) / (10 * path_loss_exp))
+        return round(distance, 2)
+
 
     def scan_networks(self):
 
@@ -26,7 +31,7 @@ class WiFiScanner:
                 continue
 
             networks.append({
-                "ssid": r.ssid, "bssid": r.bssid, "rssi": r.signal
+                "ssid": r.ssid, "bssid": r.bssid, "rssi": r.signal, "distance_m": self._rssi_to_distance(r.signal)
             })
 
         return networks

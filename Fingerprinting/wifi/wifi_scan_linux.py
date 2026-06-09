@@ -5,6 +5,14 @@ class WiFiScanner:
 
     def __init__(self):
         self.interface = "wlan0"
+        
+    def _rssi_to_distance(self, rssi, tx_power=-40, path_loss_exp=2.7):
+        '''
+        tx_power:       RSSI bei 1m Abstand (typisch -40 bis -50 dBm)
+        path_loss_exp:  2.7 typisch für Innenräume (2.0 = Freifläche)
+        '''
+        distance = 10 ** ((tx_power - rssi) / (10 * path_loss_exp))
+        return round(distance, 2)
 
     def scan_networks(self):
         try:
@@ -36,6 +44,7 @@ class WiFiScanner:
                     match = re.search(r"Signal level=(-?\d+)", line)
                     if match:
                         current["rssi"] = int(match.group(1))
+                        current["distance_m"] = self._rssi_to_distance(rssi)
 
             if current and "ssid" in current and "bssid" in current:
                 networks.append(current)

@@ -9,6 +9,7 @@ class FingerprintBuilder:
 
            fingerprint[network["bssid"]] = {
                 "ssid": network["ssid"],
-                "rssi": network["rssi"]
+                "rssi": network["rssi"],
+                "distance": network["distance_m"]
             }
         return fingerprint
