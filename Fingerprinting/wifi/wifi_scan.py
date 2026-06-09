@@ -1,3 +1,4 @@
+#wifi.wifi_scan
 from pywifi import PyWiFi
 import time
 
@@ -29,9 +30,10 @@ class WiFiScanner:
 
             if r.ssid.strip() == "":
                 continue
-
+            
+            bssid = r.bssid.upper()
             networks.append({
-                "ssid": r.ssid, "bssid": r.bssid, "rssi": r.signal, "distance_m": self._rssi_to_distance(r.signal)
+                "ssid": r.ssid, "bssid": bssid, "rssi": r.signal, "distance_m": self._rssi_to_distance(r.signal)
             })
 
         return networks

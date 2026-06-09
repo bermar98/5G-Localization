@@ -1,3 +1,4 @@
+#ml.dataset_builder.py
 import numpy as np
 
 
@@ -30,10 +31,11 @@ class DatasetBuilder:
         all_bssids = set()
 
         for sample in data:
-
-            all_bssids.update(
-                sample["fingerprint"].keys()
-            )
+            for bssid in sample["fingerprint"].keys():
+                # Einheitlich: Großbuchstaben, kein Doppelpunkt am Ende
+                normalized = bssid.upper().rstrip(":")
+                all_bssids.add(normalized)
+    
 
         all_bssids = sorted(list(all_bssids))
 
@@ -42,9 +44,20 @@ class DatasetBuilder:
 
         for sample in data:
 
+            # Sicherheitscheck
+            if "position" not in sample or "fingerprint" not in sample:
+                continue
+            if sample["position"] is None or sample["fingerprint"] is None:
+                continue
+            # Fingerprint auch normalisieren
+            normalized_fp = {
+                k.upper().rstrip(":"): v
+                for k, v in sample["fingerprint"].items()
+            }
+
             X.append(
                 DatasetBuilder.build_feature_vector(
-                    sample,
+                    {"fingerprint": normalized_fp},
                     all_bssids
                 )
             )
