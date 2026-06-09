@@ -1,56 +1,39 @@
 # get_position.py
-from pathlib import Path
-import json
 import numpy as np
-from tensorflow.keras import models
-from ml.predict import Predictor
-from wifi.wifi_scan import WiFiScanner
-import joblib
+from ml.predict import PositionEstimator
+from positioning.agv_position import AGVPosition
 
 
-BASE_DIR   = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "models" / "trained_model.keras"
-SPLITS_DIR = BASE_DIR / "data" / "splits"
-SCALER_PATH = BASE_DIR / "models" / "scaler.pkl"
-
-def predict_from_scan():
+class PositionComparator:
     
-    # 1. Modell laden
-    model = models.load_model(MODEL_PATH)
-    scaler = joblib.load(SCALER_PATH)
-
-    # 2. BSSID-Liste laden
-    with open(SPLITS_DIR / "all_bssids.json") as f:
-        all_bssids = json.load(f)
-
-    # 3. WLAN-Messung
-    scanner = WiFiScanner()
-    raw = scanner.scan_networks()  # gibt Liste zurück
-
-    # 4. Liste → Dict umwandeln (so wie in deiner fingerprints.json)
-    fingerprint = {
-        network["bssid"].upper().rstrip(":"): {"rssi": network["rssi"]}
-        for network in raw
-    }
-     # Debug — nach Schritt 4 einfügen
-    matches = sum(1 for bssid in all_bssids if bssid in fingerprint)
-    print(f"Übereinstimmende BSSIDs: {matches} von {len(all_bssids)}")
-    # Vektor direkt bauen — ohne Predictor
-    vector = []
-    for bssid in all_bssids:
-        if bssid in fingerprint:
-            vector.append(fingerprint[bssid]["rssi"])
-        else:
-            vector.append(-100)
-    X = scaler.transform(np.array([vector]))  # ← normalisieren
+    def __init__(self):
+        self.agv       = AGVPosition()
+        self.estimator = PositionEstimator()
+        
+    def compare(self):
     
-    # 5. Vorhersage
-    prediction = model.predict(X)
-    x = float(prediction[0][0])
-    y = float(prediction[0][1])
+        agv_pos       = self.agv.get_position()
+        estimated_pos = self.estimator.estimate()
 
-    print(f"Geschätzte Position: x={x:.2f}m, y={y:.2f}m")
-    return {"x": x, "y": y}
+        if agv_pos is None:
+            print("AGV-Position nicht verfügbar.")
+            return None
+
+        error = np.sqrt(
+            (agv_pos["x"] - estimated_pos["x"])**2 +
+            (agv_pos["y"] - estimated_pos["y"])**2
+        )
+
+        print(f"AGV-Position:        x={agv_pos['x']:.2f}m, y={agv_pos['y']:.2f}m")
+        print(f"Geschätzte Position: x={estimated_pos['x']:.2f}m, y={estimated_pos['y']:.2f}m")
+        print(f"Abweichung:          {error:.2f}m")
+
+        return {
+            "agv":       agv_pos,
+            "estimated": estimated_pos,
+            "error_m":   error
+        }
 
 if __name__ == "__main__":
-    predict_from_scan()
+    comparator = PositionComparator()
+    comparator.compare()
