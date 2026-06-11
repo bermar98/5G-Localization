@@ -1,38 +1,35 @@
 # 5g_simulation/config.py
+import numpy as np
 
 class HallenConfig:
-    """
-    Alle Parameter der Fabrikhalle hier anpassen.
-    Später einfach mit echten Werten befüllen.
-    """
 
     # ── Raumgeometrie ──────────────────────────────
-    LAENGE_M        = 50.0    # Hallenlänge in Metern
-    BREITE_M        = 30.0    # Hallenbreite in Metern
-    HOEHE_M         = 8.0     # Deckenhöhe in Metern
+    LAENGE_M         = 50.0
+    BREITE_M         = 30.0
+    HOEHE_M          = 8.0
+    BS_HOEHE_M       = 6.0
+    AGV_HOEHE_M      = 1.5
 
-    # ── Basisstationen ─────────────────────────────
-    ANZAHL_BS       = 4       # Anzahl 5G Access Points
-    BS_HOEHE_M      = 6.0     # Montagehöhe an der Decke
-    BS_LAYOUT       = "rectangular"  # "rectangular" oder "hexagonal"
+    # ── Netzwerk ───────────────────────────────────
+    ANZAHL_BS        = 4           # mind. 4 für TDoA
+    ANZAHL_AGV       = 1
+    TRAEGERFREQUENZ  = 3.7e9       # 3.7 GHz Campusnetz
+    ISD              = 20          # Inter-Site-Distance
 
-    # ── AGV ────────────────────────────────────────
-    ANZAHL_AGV      = 1       # Anzahl zu lokalisierende AGVs
-    AGV_HOEHE_M     = 0.5     # Höhe der AGV-Antenne
-
-    # ── 5G Parameter ───────────────────────────────
-    TRAEGERFREQUENZ = 3.7e9   # 3.7 GHz (typisch für Campusnetze)
-    BANDBREITE      = 100e6   # 100 MHz
+    # ── Manuelle BS-Positionen [x, y, z] ──────────
+    # None = automatisch (Rectangular Layout)
+    BS_POSITIONEN_MANUELL = None
+    # Beispiel:
+    # BS_POSITIONEN_MANUELL = np.array([
+    #     [ 5.0,  5.0, 6.0],
+    #     [45.0,  5.0, 6.0],
+    #     [ 5.0, 25.0, 6.0],
+    #     [45.0, 25.0, 6.0],
+    # ])
 
     # ── Simulation ─────────────────────────────────
-    ANZAHL_SNAPSHOTS = 100    # Messpunkte pro Simulation
-    RAUSCH_FIGUR_DB  = 7.0    # Rauschzahl des Empfängers
-
-
-class SimulationsConfig:
-    """
-    Parameter für die ToA-Positionierung
-    """
-    LICHTGESCHWINDIGKEIT = 3e8   # m/s
-    ZIEL_GENAUIGKEIT_M   = 1.0   # angestrebte Genauigkeit in Metern
-    METHODE              = "UL-ToA"  # Uplink Time of Arrival
+    ANZAHL_SNAPSHOTS = 50
+    SNR_DB           = 20          # Signal/Rausch-Verhältnis
+    NUM_RBS          = 52          # Ressource Blocks
+    SCS              = 30e3        # Subcarrier Spacing 30kHz
+    NFFT             = 512
