@@ -35,7 +35,7 @@ ISD_M         = 500.0    # Abstände wie in Matlab (~4000-9000m UMa → wir skal
 BS_HEIGHT_M   = 25.0     # gNB height 25m (UMa, TR 38.901)
 UE_HEIGHT_M   = 2.0      # UE height 2m
 
-CELLS_TO_DETECT = 5      # cellsToBeDetected = min(3, numgNBs)
+CELLS_TO_DETECT = 3      # cellsToBeDetected = min(3, numgNBs)
 
 # --- UE-Position (analog: UEPos = [500 -20 2]) ---
 UE_POS = np.array([500.0, -20.0, 2.0])
@@ -57,3 +57,9 @@ TOA_IFFT_MULT = 16
 # --- Visualisierung ---
 VIZ_SAVE_PLOTS = True
 VIZ_OUTPUT_DIR = "output"
+
+# -----------------------------------------------------------------------------
+#  Pathloss-Konfiguration (analog: nrPathLossConfig)
+# -----------------------------------------------------------------------------
+PATHLOSS_SCENARIO = "UMa"   # "UMa" oder "UMi" (wie plCfg.Scenario in Matlab)
+PATHLOSS_LOS      = True    # losFlag = true (nur LOS wie im Matlab-Beispiel)

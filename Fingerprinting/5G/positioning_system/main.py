@@ -1,18 +1,17 @@
 # =============================================================================
-#  main.py – DL-OTDOA mit PRS
+#  main.py – DL-OTDOA mit PRS + PDSCH + Pathloss
 #  Direkter Python-Port des Matlab-Beispiels "NR Positioning Using PRS"
 #
-#  Matlab-Struktur → Python-Äquivalent:
-#  ─────────────────────────────────────────────────────────────────
-#  nrCarrierConfig          → config.py Parameter
-#  nrPRSConfig              → config.py PRS_* Parameter
-#  nrPRS() / nrPRSIndices() → signal_processing/prs_generator.py :: nrPRS()
-#  nrOFDMModulate()         → signal_processing/ofdm.py :: ofdm_modulate()
-#  rangeangle() + Delay     → ran/simulated.py :: get_rx_waveform()
-#  nrTimingEstimate()       → signal_processing/toa_estimation.py :: nrTimingEstimate()
-#  getRSTDValues()          → signal_processing/toa_estimation.py :: getRSTDValues()
-#  getRSTDCurve()           → positioning/tdoa_ls.py :: getRSTDCurve()
-#  getEstimatedUEPosition() → positioning/tdoa_ls.py :: getEstimatedUEPosition()
+#  Matlab → Python:
+#  ─────────────────────────────────────────────────────────────────────
+#  nrPRSConfig / nrPRS()          → prs_generator.py    :: nrPRS()
+#  nrPDSCHConfig / nrPDSCH()      → pdsch_generator.py  :: nrPDSCH()
+#  nrPathLossConfig / nrPathLoss() → pathloss.py         :: nrPathLoss()
+#  nrOFDMModulate()               → ofdm.py             :: ofdm_modulate()
+#  nrTimingEstimate()             → toa_estimation.py   :: nrTimingEstimate()
+#  getRSTDValues()                → toa_estimation.py   :: getRSTDValues()
+#  getRSTDCurve()                 → tdoa_ls.py          :: getRSTDCurve()
+#  getEstimatedUEPosition()       → tdoa_ls.py          :: getEstimatedUEPosition()
 # =============================================================================
 
 import sys, os
@@ -21,40 +20,69 @@ import matplotlib.pyplot as plt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import config
-from signal_processing.prs_generator  import nrPRS
-from signal_processing.ofdm           import ofdm_modulate
-from signal_processing.toa_estimation import nrTimingEstimate, getRSTDValues
-from positioning.tdoa_ls              import estimate_position_otdoa
-from visualization.plots              import (plotgNBAndUEPositions,
-                                              plotPRSCorr,
-                                              plotPositionsAndHyperbolaCurves)
+from signal_processing.prs_generator   import nrPRS
+from signal_processing.pdsch_generator import nrPDSCH_grid as nrPDSCH, should_transmit_pdsch
+from signal_processing.pathloss        import nrPathLoss, nrPathLoss_linear
+from signal_processing.ofdm            import ofdm_modulate
+from signal_processing.toa_estimation  import nrTimingEstimate, getRSTDValues
+from positioning.tdoa_ls               import estimate_position_otdoa
+from visualization.plots               import (plotgNBAndUEPositions,
+                                               plotPRSCorr,
+                                               plotPositionsAndHyperbolaCurves)
+
+
+def create_data_source():
+    if config.MODE == "simulated":
+        from ran.simulated import SimulatedSource
+        return SimulatedSource(ue_pos=config.UE_POS)
+    elif config.MODE == "srsran":
+        from ran.srsran import SrsRanSource
+        bs_positions = np.array([
+            [ 0.0,  0.0, 3.0],
+            [20.0,  0.0, 3.0],
+            [10.0, 15.0, 3.0],
+            [20.0, 15.0, 3.0],
+            [ 0.0, 15.0, 3.0],
+        ])
+        return SrsRanSource(bs_positions, None)
+    else:
+        raise ValueError(f"Unbekannter Modus: {config.MODE!r}")
 
 
 def run():
     print("\n" + "="*62)
     print("  NR Positioning Using PRS – Python Port des Matlab-Beispiels")
-    print(f"  fc={config.CARRIER_FREQUENCY_HZ/1e9:.1f} GHz | "
-          f"SCS={config.SCS_HZ/1e3:.0f} kHz | "
-          f"CombSize={config.PRS_COMB_SIZE} | "
-          f"Symbole={config.PRS_NUM_SYMBOLS}")
+    print(f"  Modus    : {config.MODE.upper()}")
+    print(f"  Szenario : {config.PATHLOSS_SCENARIO} | fc={config.CARRIER_FREQUENCY_HZ/1e9:.1f} GHz")
+    print(f"  PRS      : CombSize={config.PRS_COMB_SIZE} | Symbole={config.PRS_NUM_SYMBOLS}")
     print("="*62 + "\n")
 
     # =========================================================================
-    #  1. Topologie (analog: UEPos, gNBPos = getgNBPositions(numgNBs))
+    #  1. Datenquelle
     # =========================================================================
-    from ran.simulated import SimulatedSource
-    source = SimulatedSource(ue_pos=config.UE_POS)
-
-    gnb_pos    = source.get_bs_positions()    # (n_bs, 3)
-    ue_pos     = source.get_ue_positions()[0] # (3,)
+    source      = create_data_source()
+    gnb_pos     = source.get_bs_positions()
+    ue_pos      = source.get_ue_positions()[0]
     true_delays = source.get_true_delays()[:, 0]
     sample_rate = source.sample_rate
     sample_delays = source.sample_delays
 
-    print(f"UE-Position: {ue_pos}")
-    print(f"Wahre Delays [µs]: {(true_delays*1e6).round(3)}")
+    print(f"UE-Position : ({ue_pos[0]:.1f}, {ue_pos[1]:.1f}, {ue_pos[2]:.1f}) m")
+    print(f"Wahre Delays: {(true_delays*1e6).round(3)} µs\n")
 
-    # Plot Topologie (analog: plotgNBAndUEPositions)
+    # Pathloss pro gNB ausgeben (wie Matlab: PLdB für jede gNB)
+    print("--- Pathloss (analog: nrPathLoss) ---")
+    for nbs in range(source.n_bs):
+        pl_db = nrPathLoss(
+            config.CARRIER_FREQUENCY_HZ,
+            gnb_pos[nbs], ue_pos,
+            scenario = config.PATHLOSS_SCENARIO,
+            los      = True,
+        )
+        d3d = np.linalg.norm(gnb_pos[nbs] - ue_pos)
+        print(f"  gNB{nbs+1}: Distanz={d3d:.0f}m | Pathloss={pl_db:.1f} dB")
+
+    # Plot Topologie
     plotgNBAndUEPositions(gnb_pos, ue_pos)
 
     # =========================================================================
@@ -65,62 +93,86 @@ def run():
     print(f"\nNPRS_IDs: {nprs_ids}")
 
     # =========================================================================
-    #  3. PRS-Grids generieren + OFDM-Modulation
-    #     Analog: nrPRS() → slotGrid → prsGrid → nrOFDMModulate()
+    #  3. PRS + PDSCH Grid generieren (Slot-Schleife)
+    #     Analog zur Matlab Slot-Schleife:
+    #       for slotIdx = 0:totSlots-1
+    #         PRS in zugewiesenem Slot → prsGrid
+    #         PDSCH in Slots ohne PRS → dataGrid
     # =========================================================================
-    print("\n--- PRS-Generierung & OFDM-Modulation ---")
+    print("\n--- PRS + PDSCH Grid generieren ---")
 
     total_slots = config.N_FRAMES * config.SLOTS_PER_FRAME  # 10 Slots
     prs_grids   = [np.zeros((14, config.NSC), dtype=np.complex64)
                    for _ in range(config.N_BS)]
+    data_grids  = [np.zeros((14, config.NSC), dtype=np.complex64)
+                   for _ in range(config.N_BS)]
 
     for slot_idx in range(total_slots):
+
+        # --- PRS: jede gNB in eigenem Slot ---
         for gnb_idx in range(config.N_BS):
-            # Slot-Offset prüfen (analog: PRSResourceOffset)
-            slot_offset = config.PRS_SLOT_OFFSETS[gnb_idx]
-            if slot_idx == slot_offset:
-                prs_grid, indices, symbols = nrPRS(
-                    Nsc         = config.NSC,
-                    nprs_id     = nprs_ids[gnb_idx],
-                    slot        = slot_idx,
-                    comb_size   = config.PRS_COMB_SIZE,
-                    num_symbols = config.PRS_NUM_SYMBOLS,
+            if slot_idx == config.PRS_SLOT_OFFSETS[gnb_idx]:
+                prs_grid, _, _ = nrPRS(
+                    Nsc          = config.NSC,
+                    nprs_id      = nprs_ids[gnb_idx],
+                    slot         = slot_idx,
+                    comb_size    = config.PRS_COMB_SIZE,
+                    num_symbols  = config.PRS_NUM_SYMBOLS,
                     symbol_start = config.PRS_SYMBOL_START,
-                    num_rbs     = config.PRS_NUM_RBS,
-                    rb_offset   = config.PRS_RB_OFFSET,
+                    num_rbs      = config.PRS_NUM_RBS,
+                    rb_offset    = config.PRS_RB_OFFSET,
                 )
                 prs_grids[gnb_idx] = prs_grid
+                print(f"  Slot {slot_idx:2d}: gNB{gnb_idx+1} → PRS "
+                      f"(NPRSID={nprs_ids[gnb_idx]})")
 
-    # OFDM-Modulation (analog: nrOFDMModulate)
-    tx_waveforms = []
-    for gnb_idx in range(config.N_BS):
-        waveform = ofdm_modulate(prs_grids[gnb_idx], config.NFFT)
-        tx_waveforms.append(waveform)
-        print(f"  gNB{gnb_idx+1}: NPRSID={nprs_ids[gnb_idx]:4d} | "
-              f"Slot-Offset={config.PRS_SLOT_OFFSETS[gnb_idx]} | "
-              f"Waveform-Länge={len(waveform)}")
+        # --- PDSCH: nur in Slots ohne PRS (analog zu Matlab) ---
+        if should_transmit_pdsch(slot_idx, config.PRS_SLOT_OFFSETS):
+            for gnb_idx in range(config.N_BS):
+                data_grid, _, _ = nrPDSCH(
+                    slot     = slot_idx,
+                    rng_seed = gnb_idx * 1000 + slot_idx,
+                )
+                data_grids[gnb_idx] = data_grid
+            print(f"  Slot {slot_idx:2d}: alle gNBs → PDSCH")
 
     # =========================================================================
-    #  4. Kanal: Delay + Pathloss (analog: sampleDelay, rx / sqrt(PL))
+    #  4. OFDM-Modulation (analog: nrOFDMModulate)
+    #     PRS + PDSCH werden addiert wie in Matlab:
+    #     txWaveform = nrOFDMModulate(carrier, prsGrid + dataGrid)
+    # =========================================================================
+    print("\n--- OFDM-Modulation (PRS + PDSCH) ---")
+    tx_waveforms = []
+    for gnb_idx in range(config.N_BS):
+        # PRS + PDSCH addieren (analog zu Matlab: prsGrid + dataGrid)
+        combined_grid = prs_grids[gnb_idx] + data_grids[gnb_idx]
+        waveform = ofdm_modulate(combined_grid, config.NFFT)
+        tx_waveforms.append(waveform)
+        print(f"  gNB{gnb_idx+1}: Waveform {len(waveform)} Samples "
+              f"| PRS-Slot={config.PRS_SLOT_OFFSETS[gnb_idx]}")
+
+    # =========================================================================
+    #  5. Kanal: Delay + Pathloss + Rauschen
+    #     analog zu: rx = [zeros; txWaveform; zeros] / sqrt(PL)
+    #                rxWaveform = sum(rx)
     # =========================================================================
     print("\n--- Kanal: Delay + Pathloss + Rauschen ---")
     rx_waveform = source.get_rx_waveform(tx_waveforms)
-    print(f"  RX-Waveform Länge: {len(rx_waveform)} Samples")
+    print(f"  RX-Waveform: {len(rx_waveform)} Samples")
 
     # =========================================================================
-    #  5. ToA-Schätzung via Kreuzkorrelation
-    #     Analog: [~,mag] = nrTimingEstimate(carrier, rxWaveform, prsGrid)
-    #             corr = mag(1:Nfft*SCS/15)
-    #             delayEst = find(corr==max(corr),1) - 1
+    #  6. ToA-Schätzung via Kreuzkorrelation
+    #     analog zu: nrTimingEstimate(carrier, rxWaveform, prsGrid)
+    #     Wichtig: Referenz ist NUR das PRS-Grid (ohne PDSCH)
     # =========================================================================
-    print("\n--- ToA-Schätzung (Kreuzkorrelation, analog nrTimingEstimate) ---")
-
+    print("\n--- ToA-Schätzung (Kreuzkorrelation) ---")
     max_corr_len = int(config.NFFT * config.SCS_HZ / 15e3)
     corr_list    = []
     delay_est    = np.zeros(config.N_BS, dtype=int)
     max_corr_val = np.zeros(config.N_BS)
 
     for gnb_idx in range(config.N_BS):
+        # Referenz: NUR PRS (kein PDSCH) – analog zu Matlab: prsGrid{gNBIdx}
         ref_waveform = ofdm_modulate(prs_grids[gnb_idx], config.NFFT)
 
         d_samples, d_s, corr = nrTimingEstimate(
@@ -131,43 +183,37 @@ def run():
         max_corr_val[gnb_idx] = corr.max()
 
         err_m = abs(d_samples - sample_delays[gnb_idx]) / sample_rate * config.C
-        print(f"  gNB{gnb_idx+1}: delayEst={d_samples:4d} Samples "
-              f"| Wahr={sample_delays[gnb_idx]:4d} | "
-              f"ToA-Fehler={err_m:.1f} m | maxCorr={corr.max():.3f}")
+        print(f"  gNB{gnb_idx+1}: "
+              f"Est={d_samples:4d} Samples | "
+              f"Wahr={sample_delays[gnb_idx]:4d} | "
+              f"Fehler={err_m:.1f} m | "
+              f"maxCorr={corr.max():.3f}")
 
-    # Plot Korrelation (analog: plotPRSCorr)
+    # Plot Korrelation
     plotPRSCorr(corr_list, sample_rate,
                 [f"gNB{i+1} (NPRSID={nprs_ids[i]})" for i in range(config.N_BS)])
 
     # =========================================================================
-    #  6. Beste Zellen wählen (analog: detectedgNBs)
-    #     Matlab: [~,detectedgNBs] = sort(maxCorr,'descend'); detectedgNBs(1:k)
+    #  7. Detektierte gNBs (analog: sort(maxCorr,'descend'))
     # =========================================================================
     cells_to_detect = min(config.CELLS_TO_DETECT, config.N_BS)
     detected_gnbs   = np.argsort(max_corr_val)[::-1][:cells_to_detect].tolist()
-    print(f"\nDetektierte gNBs (nach Korrelationsstärke): "
-          f"{[f'gNB{i+1}' for i in detected_gnbs]}")
-    print(f"Referenz-gNB: gNB{detected_gnbs[0]+1}")
+    print(f"\nDetektierte gNBs: {[f'gNB{i+1}' for i in detected_gnbs]}")
+    print(f"Referenz-gNB    : gNB{detected_gnbs[0]+1}")
 
     # =========================================================================
-    #  7. RSTD berechnen (analog: rstdVals = getRSTDValues(delayEst, SampleRate))
+    #  8. RSTD berechnen (analog: getRSTDValues)
     # =========================================================================
     rstd_matrix = getRSTDValues(delay_est, sample_rate)
-    print(f"\nRSTD-Matrix [µs] (detektierte gNBs):")
-    for i in detected_gnbs:
-        row = [f"{rstd_matrix[i,j]*1e6:7.3f}" for j in detected_gnbs]
-        print(f"  gNB{i+1}: [{', '.join(row)}]")
 
     # =========================================================================
-    #  8. Hyperbeln + Positionsschätzung
-    #     Analog: getRSTDCurve() → getEstimatedUEPosition()
+    #  9. Positionsschätzung via Hyperbeln
+    #     analog zu: getRSTDCurve + getEstimatedUEPosition
     # =========================================================================
     print("\n--- Positionsschätzung (Hyperbel-Multilateration) ---")
-
     ref_idx      = detected_gnbs[0]
     neighbor_idx = detected_gnbs[1:]
 
-    # Nur detektierte gNBs für Positionsschätzung nutzen
     est_pos, curve_x, curve_y, gnb_pairs = estimate_position_otdoa(
         gnb_positions = gnb_pos,
         rstd_matrix   = rstd_matrix,
@@ -176,19 +222,18 @@ def run():
     )
 
     # =========================================================================
-    #  9. Ergebnisse (analog: disp(['Estimated UE Position...']))
+    #  10. Ergebnisse
     # =========================================================================
     est_err = np.linalg.norm(est_pos[:2] - ue_pos[:2])
-    print(f"\n  Wahre UE-Position         : [{ue_pos[0]:.1f}, {ue_pos[1]:.1f}]")
-    print(f"  Geschätzte UE-Position    : [{est_pos[0]:.1f}, {est_pos[1]:.1f}]")
+    print(f"\n  Wahre UE-Position          : [{ue_pos[0]:.1f}, {ue_pos[1]:.1f}]")
+    print(f"  Geschätzte UE-Position     : [{est_pos[0]:.1f}, {est_pos[1]:.1f}]")
     print(f"  UE Position Estimation Error: {est_err:.2f} meters")
 
-    # Plot Hyperbeln (analog: plotPositionsAndHyperbolaCurves)
+    # Plot Hyperbeln
     plotPositionsAndHyperbolaCurves(
         gnb_pos, ue_pos, est_pos,
         curve_x, curve_y, gnb_pairs, detected_gnbs
     )
-
     plt.show()
     return est_pos, est_err
 
