@@ -7,8 +7,8 @@ MODE = "simulated"
 
 # --- Carrier (analog: nrCarrierConfig) ---
 CARRIER_FREQUENCY_HZ  = 3.0e9    # fc = 3e9 wie im Matlab-Beispiel
-SCS_HZ                = 15e3     # SubcarrierSpacing = 15 kHz (Standard)
-NUM_RBS               = 52       # NSizeGrid = 52
+SCS_HZ                = 30e3     # SubcarrierSpacing = 15 kHz (Standard)
+NUM_RBS               = 162       # NSizeGrid = 52
 NSC                   = NUM_RBS * 12   # 624
 NFFT                  = 1024
 SLOTS_PER_FRAME       = 10       # bei 15 kHz SCS
@@ -35,7 +35,7 @@ ISD_M         = 500.0    # Abstände wie in Matlab (~4000-9000m UMa → wir skal
 BS_HEIGHT_M   = 25.0     # gNB height 25m (UMa, TR 38.901)
 UE_HEIGHT_M   = 2.0      # UE height 2m
 
-CELLS_TO_DETECT = 3      # cellsToBeDetected = min(3, numgNBs)
+CELLS_TO_DETECT = 5      # cellsToBeDetected = min(3, numgNBs)
 
 # --- UE-Position (analog: UEPos = [500 -20 2]) ---
 UE_POS = np.array([500.0, -20.0, 2.0])
