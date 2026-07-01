@@ -19,6 +19,8 @@ class AGVPosition:
         }
 
     def get_position(self):
+        
+    
 
         try:
 
