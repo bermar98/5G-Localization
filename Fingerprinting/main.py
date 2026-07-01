@@ -14,8 +14,9 @@ DATA_PATH = BASE_DIR / "data" / "fingerprints.json"
 
 # --- Konfiguration für den Job-API-Aufruf ---
 API_BASE_URL = "https://192.168.10.1:9089"
-JOB_ID = "6a44d772c7395a0493931e54"
 API_KEY = "198a79262aa221793baa8c87dd26601d2dac0706512d8ba83f34e6035c45dc05"
+SECTOR_REFERENCE = "6a43b1fdc6575ba89db7599b"
+JOB_NAME = "WiFi-Messung"
 
 def main():
     # Instanz der Klassen definieren:
@@ -23,7 +24,13 @@ def main():
     agv = AGVPosition()
     wifi = WiFiScanner()
     fingerprint_builder = FingerprintBuilder()
-    job_client = JobClient(base_url=API_BASE_URL, job_id=JOB_ID, api_key=API_KEY)
+    job_client = JobClient(
+        base_url=API_BASE_URL,
+        api_key=API_KEY,
+        sector_reference=SECTOR_REFERENCE,
+        job_name=JOB_NAME,
+    )
+
     print("Programm gestartet...\n")
 
     while True:

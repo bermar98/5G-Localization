@@ -154860,5 +154860,105 @@
                 "distance": 10.0
             }
         }
+    },
+    {
+        "timestamp": "2026-07-01 15:07:17",
+        "position": {
+            "x": 8.823343059461969,
+            "y": -0.444239636973748,
+            "theta": 2.716387987136841
+        },
+        "fingerprint": {
+            "EC:75:0C:EC:BC:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -51,
+                "distance": 2.56
+            },
+            "90:72:40:19:B7:CC:": {
+                "ssid": "Net-P",
+                "rssi": -73,
+                "distance": 16.68
+            },
+            "90:72:40:19:B7:CD:": {
+                "ssid": "Net-P",
+                "rssi": -70,
+                "distance": 12.92
+            },
+            "38:C0:EA:46:3D:71:": {
+                "ssid": "MEDIC",
+                "rssi": -66,
+                "distance": 9.18
+            }
+        }
+    },
+    {
+        "timestamp": "2026-07-01 15:07:51",
+        "position": {
+            "x": 8.825272031045566,
+            "y": -0.441530816359597,
+            "theta": 2.9023139476776123
+        },
+        "fingerprint": {
+            "EC:75:0C:EC:BC:24:": {
+                "ssid": "mimm_activeshuttle_24",
+                "rssi": -52,
+                "distance": 2.78
+            },
+            "60:22:32:5E:6E:8D:": {
+                "ssid": "MEW",
+                "rssi": -63,
+                "distance": 7.11
+            },
+            "62:22:32:5E:6E:8E:": {
+                "ssid": "MEW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:2E:6E:8D:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:2E:6E:8E:": {
+                "ssid": "MGS",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "A0:E4:CB:7F:FA:E2:": {
+                "ssid": "ITA",
+                "rssi": -77,
+                "distance": 23.46
+            },
+            "62:22:32:1E:6E:8D:": {
+                "ssid": "MCW",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "62:22:32:1E:6E:8E:": {
+                "ssid": "MCW",
+                "rssi": -61,
+                "distance": 5.99
+            },
+            "EC:75:0C:EC:BC:25:": {
+                "ssid": "mimm_activeshuttle_50",
+                "rssi": -62,
+                "distance": 6.53
+            },
+            "90:72:40:19:B7:CC:": {
+                "ssid": "Net-P",
+                "rssi": -76,
+                "distance": 21.54
+            },
+            "90:72:40:19:B7:CD:": {
+                "ssid": "Net-P",
+                "rssi": -75,
+                "distance": 19.78
+            },
+            "38:C0:EA:46:3D:71:": {
+                "ssid": "MEDIC",
+                "rssi": -71,
+                "distance": 14.07
+            }
+        }
     }
 ]
