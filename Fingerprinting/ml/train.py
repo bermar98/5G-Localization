@@ -13,6 +13,7 @@ BASE_DIR = Path(__file__).parent
 DATA_PATH = BASE_DIR.parent / "data" / "fingerprints.json"
 MODEL_PATH = BASE_DIR.parent / "models" / "trained_model.keras"
 SCALER_PATH = BASE_DIR.parent / "models" / "scaler.pkl"
+HISTORY_PATH = BASE_DIR.parent / "models" / "history.json"
 
 def main():
 
@@ -38,10 +39,14 @@ def main():
 
     model.summary()
 
-    model.fit(X_train, y_train,
+    history = model.fit(X_train, y_train,
               epochs=100,
               batch_size=16,
               validation_data=(X_test, y_test))
+ 
+    # History für Visualisierung speichern (Loss/MAE je Epoche)
+    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(history.history, f)
 
     model.save(MODEL_PATH)
     predictions = model.predict(X_test)

@@ -5,6 +5,7 @@ import numpy as np
 import joblib
 from tensorflow.keras import models
 from wifi.wifi_scan import WiFiScanner
+from ml.dataset_builder import DatasetBuilder
 
 BASE_DIR    = Path(__file__).resolve().parent.parent
 MODEL_PATH  = BASE_DIR / "models" / "trained_model.keras"
@@ -25,18 +26,22 @@ class PositionEstimator:
     def estimate(self):
 
         raw = self.scanner.scan_networks()
+        if not raw:
+            print("[PositionEstimator] Warnung: Leerer WiFi-Scan, Vorhersage evtl. unzuverlässig")
+
+        known_count = sum(1 for n in raw if n["bssid"].upper().rstrip(":") in self.all_bssids)
+        if known_count == 0:
+            print("[PositionEstimator] Warnung: Kein bekannter Access Point im Scan gefunden")
 
         fingerprint = {
             network["bssid"].upper().rstrip(":"): {"rssi": network["rssi"]}
             for network in raw
         }
 
-        vector = []
-        for bssid in self.all_bssids:
-            if bssid in fingerprint:
-                vector.append(fingerprint[bssid]["rssi"])
-            else:
-                vector.append(-100)
+        vector = DatasetBuilder.build_feature_vector(
+            {"fingerprint": fingerprint},
+            self.all_bssids
+        )
 
         X = self.scaler.transform(np.array([vector]))
         prediction = self.model.predict(X, verbose=0)
