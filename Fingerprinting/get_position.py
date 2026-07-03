@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
-from ml.predict import PositionEstimator
+from ml.predict_light import PositionEstimator
 from positioning.agv_position import AGVPosition
 
 BASE_DIR = Path(__file__).resolve().parent
