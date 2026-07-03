@@ -44,7 +44,7 @@ class WiFiScanner:
                     match = re.search(r"Signal level=(-?\d+)", line)
                     if match:
                         current["rssi"] = int(match.group(1))
-                        current["distance_m"] = self._rssi_to_distance(rssi)
+                        current["distance_m"] = self._rssi_to_distance(current["rssi"])
 
             if current and "ssid" in current and "bssid" in current:
                 networks.append(current)
