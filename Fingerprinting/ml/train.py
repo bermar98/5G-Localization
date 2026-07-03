@@ -3,8 +3,9 @@ import json
 from pathlib import Path
 import numpy as np
 import joblib
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from dataset_builder import DatasetBuilder
 from data_splitter import split_and_save
 from model import IndoorLocalizationModel
@@ -14,6 +15,14 @@ DATA_PATH = BASE_DIR.parent / "data" / "fingerprints.json"
 MODEL_PATH = BASE_DIR.parent / "models" / "trained_model.keras"
 SCALER_PATH = BASE_DIR.parent / "models" / "scaler.pkl"
 HISTORY_PATH = BASE_DIR.parent / "models" / "history.json"
+FEATURE_CONFIG_PATH = BASE_DIR.parent / "models" / "feature_config.json"
+SPLITS_DIR = BASE_DIR.parent / "data" / "splits"
+
+callbacks = [
+    EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True),
+    ModelCheckpoint(str(MODEL_PATH), save_best_only=True, monitor='val_loss')
+]
+USE_PRESENCE_FEATURE = True
 
 def main():
 
@@ -22,16 +31,23 @@ def main():
         data = json.load(file)
 
     # 2. Split auslagern an data_splitter
-    X_train, X_test, y_train, y_test, all_bssids = split_and_save(data)
+    X_train, X_test, y_train, y_test, all_bssids = split_and_save(data, use_presence_feature=USE_PRESENCE_FEATURE)
 
     # Normalisierung
-    scaler = StandardScaler()
+    scaler = MinMaxScaler(feature_range=(0, 1))
     X_train = scaler.fit_transform(X_train)
     X_test  = scaler.transform(X_test)
 
     # Scaler speichern
     MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(scaler, SCALER_PATH)
+    
+    
+    with open(SPLITS_DIR / "feature_config.json", "r") as f:
+        feature_config = json.load(f)
+    feature_config["scaler_type"] = "MinMaxScaler"
+    with open(FEATURE_CONFIG_PATH, "w") as f:
+        json.dump(feature_config, f, indent=2)
     # 3. Modell trainieren
     model = IndoorLocalizationModel.create_model(
         X_train.shape[1]
@@ -42,7 +58,8 @@ def main():
     history = model.fit(X_train, y_train,
               epochs=100,
               batch_size=16,
-              validation_data=(X_test, y_test))
+              validation_data=(X_test, y_test),
+              callbacks=callbacks)
  
     # History für Visualisierung speichern (Loss/MAE je Epoche)
     with open(HISTORY_PATH, "w", encoding="utf-8") as f:

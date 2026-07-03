@@ -4,8 +4,10 @@ import numpy as np
 
 class DatasetBuilder:
 
+    SENTINEL_RSSI = -100
+
     @staticmethod
-    def build_feature_vector(sample, all_bssids):
+    def build_feature_vector(sample, all_bssids, use_presence_feature=True):
 
         vector = []
 
@@ -26,7 +28,7 @@ class DatasetBuilder:
         return vector
 
     @staticmethod
-    def build_dataset(data):
+    def build_dataset(data, use_presence_feature=True):
 
         all_bssids = set()
 
@@ -58,7 +60,8 @@ class DatasetBuilder:
             X.append(
                 DatasetBuilder.build_feature_vector(
                     {"fingerprint": normalized_fp},
-                    all_bssids
+                    all_bssids,
+                    use_presence_feature=use_presence_feature
                 )
             )
 

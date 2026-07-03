@@ -45,6 +45,7 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
 
     mean_error = errors.mean()
     max_error = errors.max()
+    min_error = errors.min()
 
     fig, ax = plt.subplots(figsize=(8, 8))
 
@@ -67,7 +68,8 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
 
     stats_text = (
         f"Mittlerer Fehler: {mean_error:.2f} m\n"
-        f"Maximaler Fehler: {max_error:.2f} m"
+        f"Maximaler Fehler: {max_error:.2f} m\n"
+        f"Minimaler Fehler: {min_error:.2f} m"
     )
     ax.text(
         0.02, 0.02, stats_text,
@@ -100,6 +102,7 @@ def main():
     print(f"\nAnzahl Messungen:  {stats['n']}")
     print(f"Mittlerer Fehler:  {stats['mean_error_m']:.2f} m")
     print(f"Maximaler Fehler:  {stats['max_error_m']:.2f} m")
+    print(f"Minimaler Fehler:  {stats['min_error_m']:.2f} m")
 
 
 if __name__ == "__main__":

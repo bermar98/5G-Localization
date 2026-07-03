@@ -17,14 +17,14 @@ class IndoorLocalizationModel:
                 input_shape=(input_dim,)
             )
         )
-
+        model.add(layers.Dropout(0.2))
         model.add(
             layers.Dense(
                 64,
                 activation='relu'
             )
         )
-
+        model.add(layers.Dropout(0.2))
         model.add(
             layers.Dense(
                 32,
