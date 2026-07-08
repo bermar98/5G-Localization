@@ -5,7 +5,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
 RESULTS_FILE = DATA_PATH / "position_comparisons.json"
 PLOT_PATH = DATA_PATH / "position_comparison_plot.png"
@@ -92,7 +92,7 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
     else:
         plt.close(fig)
 
-    return {"mean_error_m": float(mean_error), "max_error_m": float(max_error), "n": len(data)}
+    return {"mean_error_m": float(mean_error), "max_error_m": float(max_error), "min_error_m": float(min_error), "n": len(data)}
 
 
 def main():
