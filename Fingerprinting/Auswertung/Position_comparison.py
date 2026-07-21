@@ -7,8 +7,8 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons.json"
-PLOT_PATH = DATA_PATH / "position_comparison_plot.png"
+RESULTS_FILE = DATA_PATH / "position_comparisons_mitInter.json"
+PLOT_PATH = DATA_PATH / "position_comparison_plot_mitInter.png"
 
 
 def load_comparisons(path=RESULTS_FILE):
