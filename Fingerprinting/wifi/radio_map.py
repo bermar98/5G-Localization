@@ -1,4 +1,4 @@
-# radio_map.py
+# wifi_radio_map.py
 import json
 import random
 from pathlib import Path
