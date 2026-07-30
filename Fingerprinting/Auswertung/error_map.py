@@ -8,8 +8,8 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons.json"
-MAP_PATH = DATA_PATH / "spatial_error.png"
+RESULTS_FILE = DATA_PATH / "position_comparisons5G_3BS.json"
+MAP_PATH = DATA_PATH / "spatial_error_map5G_3BS.png"
 
 # Schwellenwerte für die Fehler-Kategorien (in Metern)
 LOW_THRESHOLD = 1     # < 0.5m  -> gut (grün)

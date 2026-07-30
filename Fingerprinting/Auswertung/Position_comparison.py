@@ -7,8 +7,8 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons_mitInter.json"
-PLOT_PATH = DATA_PATH / "position_comparison_plot_mitInter.png"
+RESULTS_FILE = DATA_PATH / "position_comparisons5G_3BS.json"
+PLOT_PATH = DATA_PATH / "position_comparison_plot5G_3BS.png"
 
 
 def load_comparisons(path=RESULTS_FILE):
@@ -49,7 +49,7 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
 
     fig, ax = plt.subplots(figsize=(8, 8))
 
-    ax.scatter(agv_x, agv_y, c="blue", label="AGV-Position (real)", alpha=0.7, zorder=3)
+    ax.scatter(agv_x, agv_y, c="blue", label="FTS-Position (real)", alpha=0.7, zorder=3)
     ax.scatter(est_x, est_y, c="red", label="Geschätzte Position", alpha=0.7, zorder=3)
 
     for i in range(len(data)):
@@ -61,7 +61,7 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
 
     ax.set_xlabel("x (m)")
     ax.set_ylabel("y (m)")
-    ax.set_title(f"Positionsvergleich: AGV vs. Schätzung (n={len(data)} Messungen)")
+    ax.set_title(f"Positionsvergleich: FTS vs. Schätzung (n={len(data)} Messungen)")
     ax.legend(loc="upper right")
     ax.axis("equal")
     ax.grid(True, alpha=0.3)

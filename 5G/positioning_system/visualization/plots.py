@@ -23,7 +23,7 @@ def plotgNBAndUEPositions(gnb_pos, ue_pos, title="gNB und UE Positionen"):
                     color=_COLORS[i%len(_COLORS)])
     ax.scatter(ue_pos[0], ue_pos[1], marker='o', color='black',
                s=120, zorder=5, label='UE')
-    ax.set_xlabel("X Position (meters)"); ax.set_ylabel("Y Position (meters)")
+    ax.set_xlabel("x-Position (Meter)"); ax.set_ylabel("y-Position (Meter)")
     ax.set_title(title); ax.legend(); ax.grid(True, alpha=0.3)
     ax.set_aspect('equal')
     plt.tight_layout()
@@ -84,9 +84,9 @@ def plotPositionsAndHyperbolaCurves(gnb_pos, ue_pos_true, est_pos,
                label=f"Geschätzte Position")
 
     err = np.linalg.norm(est_pos[:2] - ue_pos_true[:2])
-    ax.set_xlabel("X Position (meters)")
-    ax.set_ylabel("Y Position (meters)")
-    ax.set_title(f"DL-OTDOA mit PRS – Positionierungsfehler: {err:.1f} m",
+    ax.set_xlabel("x-Position (Meter)")
+    ax.set_ylabel("y-Position (Meter)")
+    ax.set_title(f"DL-TDoA mit PRS – Positionierungsfehler: {err:.1f} m",
                  fontweight='bold')
     ax.legend(fontsize=8, loc='upper right')
     ax.grid(True, alpha=0.3)

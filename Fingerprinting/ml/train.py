@@ -11,7 +11,7 @@ from data_splitter import split_and_save
 from model import IndoorLocalizationModel
 
 BASE_DIR = Path(__file__).parent
-DATA_PATH = BASE_DIR.parent / "data" / "fingerprints_augmented.json"
+DATA_PATH = BASE_DIR.parent / "data" / "fingerprints.json"
 MODEL_PATH = BASE_DIR.parent / "models" / "trained_model.keras"
 SCALER_PATH = BASE_DIR.parent / "models" / "scaler.pkl"
 HISTORY_PATH = BASE_DIR.parent / "models" / "history.json"

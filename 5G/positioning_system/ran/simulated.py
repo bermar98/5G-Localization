@@ -140,15 +140,16 @@ class SimulatedSource(DataSource):
         """
         n = config.N_BS
         rng = np.random.default_rng(config.RNG_SEED)
-        positions = []
-        for idx in range(1, n+1):
+        positions = np.array([[ 50.0,  0.0, 25.0], [15.5,  47.5, 25.0],
+                        [-40.45, 29.38, 25.0], [-40.45,  -29.38, 25.0], [15.5,  -47.5, 25.0]])
+        '''for idx in range(1, n+1):
             phi = (idx * 2*np.pi/n
                    + rng.uniform() * 2*np.pi/(2*n)
                    - 2*np.pi/(2*n))
-            r   = rng.integers(0, 1001) + 4000 + idx * 5000/n
+            r   = rng.integers(0, 101) + idx * 50/n
             x   = r * np.cos(phi)
             y   = r * np.sin(phi)
-            positions.append([x, y, config.BS_HEIGHT_M])
+            positions.append([x, y, config.BS_HEIGHT_M])'''
         return np.array(positions)
 
     def _compute_delays(self):

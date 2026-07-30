@@ -6,11 +6,11 @@ import numpy as np
 MODE = "simulated"
 
 # --- Carrier (analog: nrCarrierConfig) ---
-CARRIER_FREQUENCY_HZ  = 3.0e9    # fc = 3e9 wie im Matlab-Beispiel
-SCS_HZ                = 30e3     # SubcarrierSpacing = 15 kHz (Standard)
+CARRIER_FREQUENCY_HZ  = 3.7e9    # fc = 3e9 wie im Matlab-Beispiel
+SCS_HZ                = 60e3     # SubcarrierSpacing = 15 kHz (Standard)
 NUM_RBS               = 162       # NSizeGrid = 52
 NSC                   = NUM_RBS * 12   # 624
-NFFT                  = 1024
+NFFT                  = 2084
 SLOTS_PER_FRAME       = 10       # bei 15 kHz SCS
 N_FRAMES              = 1        # nFrames = 1
 C                     = 3e8
@@ -31,14 +31,14 @@ PRS_SYMBOL_START        = 0      # SymbolStart = 0
 # --- Topologie ---
 N_BS          = 5        # numgNBs = 5
 N_UE          = 1
-ISD_M         = 500.0    # Abstände wie in Matlab (~4000-9000m UMa → wir skalieren für Indoor)
+ISD_M         = 50.0    # Abstände wie in Matlab (~4000-9000m UMa → wir skalieren für Indoor)
 BS_HEIGHT_M   = 25.0     # gNB height 25m (UMa, TR 38.901)
-UE_HEIGHT_M   = 2.0      # UE height 2m
+UE_HEIGHT_M   = 1.5      # UE height 2m
 
-CELLS_TO_DETECT = 3      # cellsToBeDetected = min(3, numgNBs)
+CELLS_TO_DETECT = 5      # cellsToBeDetected = min(3, numgNBs)
 
 # --- UE-Position (analog: UEPos = [500 -20 2]) ---
-UE_POS = np.array([500.0, -20.0, 2.0])
+UE_POS = np.array([0.0, 0.0, 1.5])
 
 # --- Sender/Rauschen ---
 PT_DBM          = 43
@@ -61,5 +61,5 @@ VIZ_OUTPUT_DIR = "output"
 # -----------------------------------------------------------------------------
 #  Pathloss-Konfiguration (analog: nrPathLossConfig)
 # -----------------------------------------------------------------------------
-PATHLOSS_SCENARIO = "UMa"   # "UMa" oder "UMi" (wie plCfg.Scenario in Matlab)
+PATHLOSS_SCENARIO = "UMi"   # "UMa" oder "UMi" (wie plCfg.Scenario in Matlab)
 PATHLOSS_LOS      = True    # losFlag = true (nur LOS wie im Matlab-Beispiel)
