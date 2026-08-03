@@ -151,7 +151,7 @@ class SimulatedSource(DataSource):
         for i in range(1, N+1):
             x = r * np.cos(2 * np.pi * i / N)
             y = r * np.sin(2 * np.pi * i / N)
-            positions.append((x, y, 25.0))             
+            positions.append((x, y, 6.0))             
         '''for idx in range(1, n+1):
             phi = (idx * 2*np.pi/n
                    + rng.uniform() * 2*np.pi/(2*n)

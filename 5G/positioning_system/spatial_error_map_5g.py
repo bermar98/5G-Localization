@@ -15,8 +15,8 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 BASE_DIR     = Path(__file__).resolve().parent.parent.parent
-RESULTS_FILE = BASE_DIR / "output" / "grid_results.json"
-MAP_PATH     = BASE_DIR / "output" / "spatial_error_map_5g.png"
+RESULTS_FILE = BASE_DIR / "output" / "grid_results_30khz.json"
+MAP_PATH     = BASE_DIR / "output" / "spatial_error_map_5g_6m.png"
 
 # Schwellenwerte für Fehler-Kategorien (in Metern)
 LOW_THRESHOLD  = 1.0    # < 1m   → gut (grün)
@@ -75,7 +75,7 @@ def plot_spatial_error_map(results, save_path=MAP_PATH,
     if annotate_values:
         for x, y, e in zip(agv_x, agv_y, errors):
             ax.annotate(
-                f"{e:.1f}", (x, y),
+                f"{e:.2f}", (x, y),
                 textcoords="offset points", xytext=(0, 9),
                 ha="center", fontsize=8, zorder=4
             )
@@ -83,7 +83,7 @@ def plot_spatial_error_map(results, save_path=MAP_PATH,
     ax.set_xlabel("x (m)")
     ax.set_ylabel("y (m)")
     ax.set_title(
-        f"Räumliche Fehlerkarte der 5G DL-OTDOA Positionsschätzung "
+        f"Räumliche Fehlerkarte der 5G DL-TDoA Positionsschätzung "
         f"(n={len(results)} Messpunkte)"
     )
     ax.axis("equal")
@@ -91,13 +91,13 @@ def plot_spatial_error_map(results, save_path=MAP_PATH,
 
     legend_handles = [
         mpatches.Patch(color=COLOR_GOOD,
-                       label=f"< {LOW_THRESHOLD:.0f} m (gut)"),
+                       label=f"< {LOW_THRESHOLD:.1f} m (gut)"),
         mpatches.Patch(color=COLOR_MEDIUM,
-                       label=f"{LOW_THRESHOLD:.0f}–{HIGH_THRESHOLD:.0f} m (mittel)"),
+                       label=f"{LOW_THRESHOLD:.1f}–{HIGH_THRESHOLD:.1f} m (mittel)"),
         mpatches.Patch(color=COLOR_BAD,
-                       label=f"> {HIGH_THRESHOLD:.0f} m (schlecht)"),
+                       label=f"> {HIGH_THRESHOLD:.1f} m (schlecht)"),
     ]
-    ax.legend(handles=legend_handles, title="Fehler-Kategorie",
+    ax.legend(handles=legend_handles, title="Fehler",
               loc="upper right")
 
     stats_text = (
