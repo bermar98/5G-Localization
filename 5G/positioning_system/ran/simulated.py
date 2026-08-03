@@ -140,8 +140,18 @@ class SimulatedSource(DataSource):
         """
         n = config.N_BS
         rng = np.random.default_rng(config.RNG_SEED)
-        positions = np.array([[ 50.0,  0.0, 25.0], [15.5,  47.5, 25.0],
-                        [-40.45, 29.38, 25.0], [-40.45,  -29.38, 25.0], [15.5,  -47.5, 25.0]])
+        # positions = np.array([[ 50.0,  0.0, 25.0], [-35,  35, 25.0], [-35,  -35, 25.0]])
+        
+        # positions = np.array([[ 50.0,  0.0, 25.0], [15.5,  47.5, 25.0], [-40.45, 29.38, 25.0], [-40.45,  -29.38, 25.0], [15.5,  -47.5, 25.0]])
+        N = 5      # Anzahl der Punkte
+        r = 100      # Radius
+
+        positions = []
+
+        for i in range(1, N+1):
+            x = r * np.cos(2 * np.pi * i / N)
+            y = r * np.sin(2 * np.pi * i / N)
+            positions.append((x, y, 25.0))             
         '''for idx in range(1, n+1):
             phi = (idx * 2*np.pi/n
                    + rng.uniform() * 2*np.pi/(2*n)

@@ -38,7 +38,7 @@ UE_HEIGHT_M   = 1.5      # UE height 2m
 CELLS_TO_DETECT = 5      # cellsToBeDetected = min(3, numgNBs)
 
 # --- UE-Position (analog: UEPos = [500 -20 2]) ---
-UE_POS = np.array([0.0, 0.0, 1.5])
+UE_POS = np.array([-20.0, -30.0, 1.5])
 
 # --- Sender/Rauschen ---
 PT_DBM          = 43
