@@ -7,7 +7,7 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons_12.08.json"
+RESULTS_FILE = DATA_PATH / "position_comparisons_12.08.2.json"
 PLOT_PATH = DATA_PATH / "position_comparison_plot_12.08.png"
 
 

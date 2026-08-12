@@ -1,0 +1,549 @@
+{
+  "spatial": {
+    "n_points": 1026,
+    "x_range": [
+      -4.173337162196101,
+      8.82973773524594
+    ],
+    "y_range": [
+      -3.7544102198922236,
+      7.619234590192063
+    ],
+    "nearest_neighbor_dist_m": {
+      "mean": 0.011748175934127152,
+      "median": 0.002429179916666199,
+      "max": 0.6473345367821263,
+      "p90": 0.009911608440356916
+    }
+  },
+  "rssi_per_bssid": [
+    {
+      "bssid": "EC:75:0C:EC:BC:24",
+      "count": 1026,
+      "mean": -43.5194931774,
+      "std": 5.19850918,
+      "min": -60,
+      "max": -26,
+      "visibility_ratio": 1.0,
+      "local_rssi_std_mean": 2.6765214107,
+      "n_local_groups": 1022.0
+    },
+    {
+      "bssid": "90:72:40:19:B7:CD",
+      "count": 1026,
+      "mean": -66.044834308,
+      "std": 7.3843564128,
+      "min": -85,
+      "max": -49,
+      "visibility_ratio": 1.0,
+      "local_rssi_std_mean": 2.2995912878,
+      "n_local_groups": 1022.0
+    },
+    {
+      "bssid": "62:22:32:5E:6E:8E",
+      "count": 1026,
+      "mean": -47.4561403509,
+      "std": 8.4535186102,
+      "min": -65,
+      "max": -28,
+      "visibility_ratio": 1.0,
+      "local_rssi_std_mean": 2.173702996,
+      "n_local_groups": 1022.0
+    },
+    {
+      "bssid": "62:22:32:2E:6E:8E",
+      "count": 1026,
+      "mean": -47.4337231969,
+      "std": 8.4601789278,
+      "min": -65,
+      "max": -28,
+      "visibility_ratio": 1.0,
+      "local_rssi_std_mean": 2.1819608787,
+      "n_local_groups": 1022.0
+    },
+    {
+      "bssid": "62:22:32:1E:6E:8E",
+      "count": 1026,
+      "mean": -47.4152046784,
+      "std": 8.4661231838,
+      "min": -66,
+      "max": -28,
+      "visibility_ratio": 1.0,
+      "local_rssi_std_mean": 2.1811676268,
+      "n_local_groups": 1022.0
+    },
+    {
+      "bssid": "60:22:32:5E:6E:8D",
+      "count": 1023,
+      "mean": -47.3773216031,
+      "std": 7.9821445714,
+      "min": -71,
+      "max": -26,
+      "visibility_ratio": 0.9970760234,
+      "local_rssi_std_mean": 4.0153038404,
+      "n_local_groups": 1019.0
+    },
+    {
+      "bssid": "62:22:32:2E:6E:8D",
+      "count": 1022,
+      "mean": -47.6115459883,
+      "std": 8.1132280807,
+      "min": -76,
+      "max": -25,
+      "visibility_ratio": 0.9961013645,
+      "local_rssi_std_mean": 4.3121693816,
+      "n_local_groups": 1018.0
+    },
+    {
+      "bssid": "62:22:32:1E:6E:8D",
+      "count": 1022,
+      "mean": -47.5753424658,
+      "std": 7.9961853436,
+      "min": -72,
+      "max": -26,
+      "visibility_ratio": 0.9961013645,
+      "local_rssi_std_mean": 4.1517509449,
+      "n_local_groups": 1018.0
+    },
+    {
+      "bssid": "90:72:40:19:B7:CC",
+      "count": 1019,
+      "mean": -62.6594700687,
+      "std": 6.5222029823,
+      "min": -81,
+      "max": -47,
+      "visibility_ratio": 0.9931773879,
+      "local_rssi_std_mean": 4.0513927851,
+      "n_local_groups": 1015.0
+    },
+    {
+      "bssid": "38:C0:EA:46:3D:71",
+      "count": 1017,
+      "mean": -55.7118977384,
+      "std": 6.3364172138,
+      "min": -77,
+      "max": -40,
+      "visibility_ratio": 0.9912280702,
+      "local_rssi_std_mean": 3.3291767226,
+      "n_local_groups": 1013.0
+    },
+    {
+      "bssid": "EC:75:0C:EC:BC:25",
+      "count": 1010,
+      "mean": -47.6396039604,
+      "std": 4.9499793116,
+      "min": -61,
+      "max": -30,
+      "visibility_ratio": 0.9844054581,
+      "local_rssi_std_mean": 2.472419035,
+      "n_local_groups": 1006.0
+    },
+    {
+      "bssid": "B0:0A:D5:4D:74:9D",
+      "count": 901,
+      "mean": -68.2153163152,
+      "std": 5.2738588692,
+      "min": -83,
+      "max": -51,
+      "visibility_ratio": 0.8781676413,
+      "local_rssi_std_mean": 3.0758704665,
+      "n_local_groups": 897.0
+    },
+    {
+      "bssid": "9C:3D:CF:EA:CD:28",
+      "count": 901,
+      "mean": -72.1087680355,
+      "std": 4.9027589435,
+      "min": -85,
+      "max": -54,
+      "visibility_ratio": 0.8781676413,
+      "local_rssi_std_mean": 3.1396342004,
+      "n_local_groups": 897.0
+    },
+    {
+      "bssid": "B0:0A:D5:4E:74:9D",
+      "count": 826,
+      "mean": -71.1501210654,
+      "std": 7.173468371,
+      "min": -88,
+      "max": -34,
+      "visibility_ratio": 0.8050682261,
+      "local_rssi_std_mean": 4.3355921275,
+      "n_local_groups": 823.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:97",
+      "count": 795,
+      "mean": -72.9106918239,
+      "std": 4.9147210011,
+      "min": -83,
+      "max": -60,
+      "visibility_ratio": 0.7748538012,
+      "local_rssi_std_mean": 1.8857781434,
+      "n_local_groups": 789.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:96",
+      "count": 795,
+      "mean": -72.9396226415,
+      "std": 4.9609434138,
+      "min": -85,
+      "max": -60,
+      "visibility_ratio": 0.7748538012,
+      "local_rssi_std_mean": 1.9067091297,
+      "n_local_groups": 788.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:98",
+      "count": 791,
+      "mean": -72.8343868521,
+      "std": 4.9200319899,
+      "min": -85,
+      "max": -60,
+      "visibility_ratio": 0.7709551657,
+      "local_rssi_std_mean": 1.8888405776,
+      "n_local_groups": 785.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:95",
+      "count": 784,
+      "mean": -72.8341836735,
+      "std": 4.8818013599,
+      "min": -82,
+      "max": -60,
+      "visibility_ratio": 0.7641325536,
+      "local_rssi_std_mean": 1.8612135709,
+      "n_local_groups": 778.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:94",
+      "count": 769,
+      "mean": -72.7958387516,
+      "std": 4.9203217369,
+      "min": -84,
+      "max": -60,
+      "visibility_ratio": 0.7495126706,
+      "local_rssi_std_mean": 1.8903526516,
+      "n_local_groups": 761.0
+    },
+    {
+      "bssid": "9C:3D:CF:EA:CD:2A",
+      "count": 753,
+      "mean": -77.7051792829,
+      "std": 4.681696734,
+      "min": -92,
+      "max": -42,
+      "visibility_ratio": 0.7339181287,
+      "local_rssi_std_mean": 2.3204414869,
+      "n_local_groups": 750.0
+    },
+    {
+      "bssid": "A0:E4:CB:7F:FA:E2",
+      "count": 643,
+      "mean": -75.1741835148,
+      "std": 5.3402152999,
+      "min": -87,
+      "max": -58,
+      "visibility_ratio": 0.626705653,
+      "local_rssi_std_mean": 2.9350142578,
+      "n_local_groups": 637.0
+    },
+    {
+      "bssid": "26:FB:E3:00:41:D5",
+      "count": 587,
+      "mean": -78.7649063032,
+      "std": 4.1250829074,
+      "min": -88,
+      "max": -39,
+      "visibility_ratio": 0.5721247563,
+      "local_rssi_std_mean": 2.5489662341,
+      "n_local_groups": 583.0
+    },
+    {
+      "bssid": "40:5F:7D:16:EF:45",
+      "count": 548,
+      "mean": -72.7883211679,
+      "std": 5.8904448477,
+      "min": -86,
+      "max": -57,
+      "visibility_ratio": 0.5341130604,
+      "local_rssi_std_mean": 3.2332506018,
+      "n_local_groups": 544.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:09:14",
+      "count": 316,
+      "mean": -78.8765822785,
+      "std": 2.252467225,
+      "min": -84,
+      "max": -71,
+      "visibility_ratio": 0.3079922027,
+      "local_rssi_std_mean": 1.4964374092,
+      "n_local_groups": 306.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:09:18",
+      "count": 300,
+      "mean": -78.8566666667,
+      "std": 2.419843182,
+      "min": -84,
+      "max": -70,
+      "visibility_ratio": 0.2923976608,
+      "local_rssi_std_mean": 1.6819532849,
+      "n_local_groups": 289.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:09:17",
+      "count": 294,
+      "mean": -78.9353741497,
+      "std": 2.3468605919,
+      "min": -83,
+      "max": -66,
+      "visibility_ratio": 0.2865497076,
+      "local_rssi_std_mean": 1.6272921899,
+      "n_local_groups": 283.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:09:16",
+      "count": 287,
+      "mean": -78.8954703833,
+      "std": 2.2507684092,
+      "min": -84,
+      "max": -73,
+      "visibility_ratio": 0.2797270955,
+      "local_rssi_std_mean": 1.5246381424,
+      "n_local_groups": 272.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:09:15",
+      "count": 259,
+      "mean": -78.9575289575,
+      "std": 2.3265678372,
+      "min": -85,
+      "max": -72,
+      "visibility_ratio": 0.2524366472,
+      "local_rssi_std_mean": 1.5830640073,
+      "n_local_groups": 249.0
+    },
+    {
+      "bssid": "00:E6:0E:3F:D6:58",
+      "count": 134,
+      "mean": -78.2164179104,
+      "std": 2.2119359747,
+      "min": -85,
+      "max": -70,
+      "visibility_ratio": 0.1306042885,
+      "local_rssi_std_mean": 1.6147125991,
+      "n_local_groups": 127.0
+    },
+    {
+      "bssid": "00:E6:0E:3F:D6:57",
+      "count": 109,
+      "mean": -78.3302752294,
+      "std": 2.1818062763,
+      "min": -83,
+      "max": -74,
+      "visibility_ratio": 0.1062378168,
+      "local_rssi_std_mean": 1.4992906048,
+      "n_local_groups": 100.0
+    },
+    {
+      "bssid": "00:E6:0E:3F:D6:56",
+      "count": 92,
+      "mean": -78.3260869565,
+      "std": 2.1023727864,
+      "min": -82,
+      "max": -74,
+      "visibility_ratio": 0.089668616,
+      "local_rssi_std_mean": 1.3915621665,
+      "n_local_groups": 85.0
+    },
+    {
+      "bssid": "00:E6:0E:3F:D6:55",
+      "count": 69,
+      "mean": -78.5652173913,
+      "std": 1.9664708675,
+      "min": -83,
+      "max": -74,
+      "visibility_ratio": 0.067251462,
+      "local_rssi_std_mean": 1.5041350917,
+      "n_local_groups": 64.0
+    },
+    {
+      "bssid": "00:E6:0E:3F:D6:54",
+      "count": 58,
+      "mean": -78.5344827586,
+      "std": 1.789006558,
+      "min": -82,
+      "max": -74,
+      "visibility_ratio": 0.0565302144,
+      "local_rssi_std_mean": 1.2822860222,
+      "n_local_groups": 49.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:A5",
+      "count": 51,
+      "mean": -81.2745098039,
+      "std": 3.0729688015,
+      "min": -86,
+      "max": -77,
+      "visibility_ratio": 0.0497076023,
+      "local_rssi_std_mean": 1.8935392808,
+      "n_local_groups": 48.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:A7",
+      "count": 49,
+      "mean": -81.2040816327,
+      "std": 3.1687247161,
+      "min": -86,
+      "max": -77,
+      "visibility_ratio": 0.0477582846,
+      "local_rssi_std_mean": 2.0168493258,
+      "n_local_groups": 43.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:A8",
+      "count": 46,
+      "mean": -81.0,
+      "std": 3.1340424729,
+      "min": -85,
+      "max": -77,
+      "visibility_ratio": 0.044834308,
+      "local_rssi_std_mean": 1.6822707542,
+      "n_local_groups": 42.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:A4",
+      "count": 45,
+      "mean": -80.4444444444,
+      "std": 2.919803508,
+      "min": -85,
+      "max": -76,
+      "visibility_ratio": 0.0438596491,
+      "local_rssi_std_mean": 1.8201460946,
+      "n_local_groups": 43.0
+    },
+    {
+      "bssid": "00:E6:0E:3E:10:A6",
+      "count": 45,
+      "mean": -80.9333333333,
+      "std": 3.2641301222,
+      "min": -87,
+      "max": -77,
+      "visibility_ratio": 0.0438596491,
+      "local_rssi_std_mean": 2.2093015671,
+      "n_local_groups": 41.0
+    },
+    {
+      "bssid": "6E:0B:5E:DF:84:CF",
+      "count": 37,
+      "mean": -83.0,
+      "std": 1.779513042,
+      "min": -86,
+      "max": -78,
+      "visibility_ratio": 0.0360623782,
+      "local_rssi_std_mean": 1.2979745112,
+      "n_local_groups": 25.0
+    },
+    {
+      "bssid": "B4:FC:7D:76:04:F0",
+      "count": 26,
+      "mean": -81.9230769231,
+      "std": 1.741793947,
+      "min": -85,
+      "max": -78,
+      "visibility_ratio": 0.0253411306,
+      "local_rssi_std_mean": 1.614448681,
+      "n_local_groups": 20.0
+    },
+    {
+      "bssid": "BA:16:5F:C3:2C:4F",
+      "count": 19,
+      "mean": -80.2631578947,
+      "std": 3.2971722778,
+      "min": -85,
+      "max": -72,
+      "visibility_ratio": 0.0185185185,
+      "local_rssi_std_mean": 2.353523773,
+      "n_local_groups": 14.0
+    },
+    {
+      "bssid": "40:5F:7D:03:18:E1",
+      "count": 13,
+      "mean": -88.3846153846,
+      "std": 1.9381460875,
+      "min": -92,
+      "max": -86,
+      "visibility_ratio": 0.0126705653,
+      "local_rssi_std_mean": 1.375,
+      "n_local_groups": 8.0
+    },
+    {
+      "bssid": "B4:FC:7D:76:04:F2",
+      "count": 10,
+      "mean": -81.6,
+      "std": 2.2705848488,
+      "min": -87,
+      "max": -79,
+      "visibility_ratio": 0.0097465887,
+      "local_rssi_std_mean": 1.5165750888,
+      "n_local_groups": 5.0
+    },
+    {
+      "bssid": "14:36:0E:EA:4B:6A",
+      "count": 7,
+      "mean": -84.7142857143,
+      "std": 2.2886885411,
+      "min": -88,
+      "max": -82,
+      "visibility_ratio": 0.0068226121,
+      "local_rssi_std_mean": 1.5165750888,
+      "n_local_groups": 5.0
+    },
+    {
+      "bssid": "16:6A:0E:EA:4B:6B",
+      "count": 3,
+      "mean": -83.6666666667,
+      "std": 1.5275252317,
+      "min": -85,
+      "max": -82,
+      "visibility_ratio": 0.0029239766,
+      "local_rssi_std_mean": null,
+      "n_local_groups": null
+    },
+    {
+      "bssid": "12:35:3B:E9:43:9B",
+      "count": 2,
+      "mean": -66.0,
+      "std": 0.0,
+      "min": -66,
+      "max": -66,
+      "visibility_ratio": 0.0019493177,
+      "local_rssi_std_mean": null,
+      "n_local_groups": null
+    },
+    {
+      "bssid": "BE:1B:93:5A:0B:E5",
+      "count": 1,
+      "mean": -82.0,
+      "std": null,
+      "min": -82,
+      "max": -82,
+      "visibility_ratio": 0.0009746589,
+      "local_rssi_std_mean": null,
+      "n_local_groups": null
+    },
+    {
+      "bssid": "D2:BA:FC:68:9C:6B",
+      "count": 1,
+      "mean": -79.0,
+      "std": null,
+      "min": -79,
+      "max": -79,
+      "visibility_ratio": 0.0009746589,
+      "local_rssi_std_mean": null,
+      "n_local_groups": null
+    }
+  ]
+}
