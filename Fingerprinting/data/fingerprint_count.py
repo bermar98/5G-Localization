@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 BASE_DIR   = Path(__file__).resolve().parent
-DATA_PATH  = BASE_DIR / "fingerprints_augmented.json"
+DATA_PATH  = BASE_DIR / "fingerprints.json"
 
 with open(DATA_PATH, "r", encoding="utf-8") as f:
     data = json.load(f)

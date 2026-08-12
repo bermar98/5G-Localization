@@ -1,0 +1,19 @@
+{
+  "total_records": 695,
+  "total_bssids_before": 51,
+  "bssids_dropped_rare": [
+    "00:E6:0E:3F:D6:64",
+    "00:E6:0E:3F:D6:65",
+    "00:E6:0E:3F:D6:67",
+    "00:E6:0E:3F:D6:68",
+    "50:E6:36:DE:1E:8B",
+    "C4:5B:BE:3B:27:DD"
+  ],
+  "bssids_kept": 45,
+  "rssi_outliers_removed": 0,
+  "fingerprint_length_after": {
+    "min": 16,
+    "max": 38,
+    "mean": 27.87
+  }
+}

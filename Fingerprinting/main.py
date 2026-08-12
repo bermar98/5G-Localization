@@ -1,7 +1,7 @@
 # main Datei zur Fingerprinting von WiFi Signalstärken
 # Aus den anderen Dateien die einzelnen Klassen importieren
 from positioning.agv_position import AGVPosition
-from wifi.wifi_scan import WiFiScanner
+from wifi.wifi_scan_linux import WiFiScanner
 from wifi.fingerprint import FingerprintBuilder
 from storage.json_storage import Storage
 from api.job_client import JobClient

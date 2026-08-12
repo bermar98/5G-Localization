@@ -73,6 +73,8 @@ def main():
     )
     print(f"Mittlerer Fehler: {distances.mean():.2f}m")
     print(f"Max. Fehler:      {distances.max():.2f}m")
+    print(f"Min. Fehler:      {distances.min():.2f}m")
+    
 
 
 if __name__ == "__main__":

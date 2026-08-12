@@ -12,7 +12,7 @@ except ImportError:
     except ImportError:
         import tensorflow as tf
         Interpreter = tf.lite.Interpreter
-from wifi.wifi_scan import WiFiScanner
+from wifi.wifi_scan_linux import WiFiScanner
 from ml.dataset_builder import DatasetBuilder
 
 BASE_DIR    = Path(__file__).resolve().parent.parent

@@ -1,7 +1,7 @@
 {
   "use_presence_feature": true,
   "sentinel_rssi": -100,
-  "bssid_count": 48,
-  "feature_dim": 48,
+  "bssid_count": 51,
+  "feature_dim": 51,
   "scaler_type": "MinMaxScaler"
 }

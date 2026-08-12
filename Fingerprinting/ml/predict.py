@@ -4,7 +4,7 @@ import json
 import numpy as np
 import joblib
 from tensorflow.keras import models
-from wifi.wifi_scan import WiFiScanner
+from wifi.wifi_scan_linux import WiFiScanner
 from ml.dataset_builder import DatasetBuilder
 
 BASE_DIR    = Path(__file__).resolve().parent.parent
