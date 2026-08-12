@@ -19,7 +19,7 @@ FEATURE_CONFIG_PATH = BASE_DIR.parent / "models" / "feature_config.json"
 SPLITS_DIR = BASE_DIR.parent / "data" / "splits"
 
 callbacks = [
-    EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True),
+    EarlyStopping(monitor='val_loss', patience=8, restore_best_weights=True),
     ModelCheckpoint(str(MODEL_PATH), save_best_only=True, monitor='val_loss')
 ]
 USE_PRESENCE_FEATURE = True

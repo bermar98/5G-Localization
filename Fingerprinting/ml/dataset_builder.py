@@ -16,14 +16,16 @@ class DatasetBuilder:
         for bssid in all_bssids:
 
             if bssid in fingerprint:
-
-                vector.append(
-                    fingerprint[bssid]["rssi"]
-                )
-
+                rssi = fingerprint[bssid]["rssi"]
+                presence = 1
             else:
-
-                vector.append(-100)
+                rssi = DatasetBuilder.SENTINEL_RSSI
+                presence = 0
+ 
+            vector.append(rssi)
+            
+            if use_presence_feature:
+                vector.append(presence)
 
         return vector
 
