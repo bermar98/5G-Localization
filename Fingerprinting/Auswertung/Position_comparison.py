@@ -5,10 +5,12 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
+file_name = "position_comparison_Grundmessung.json"
+suffix = Path(file_name).stem.removeprefix("position_comparison_")
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons_12.08.2.json"
-PLOT_PATH = DATA_PATH / "position_comparison_plot_12.08.png"
+RESULTS_FILE = DATA_PATH / "Positionsvergleich/Messungen" /file_name
+PLOT_PATH = DATA_PATH / f"Positionsvergleich/Auswertungen/position_comparisons_{suffix}.png"
 
 
 def load_comparisons(path=RESULTS_FILE):

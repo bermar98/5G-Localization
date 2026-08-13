@@ -6,14 +6,16 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
+file_name = "position_comparison_Grundmessung.json"
+suffix = Path(file_name).stem.removeprefix("position_comparison_")
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons5G_3BS.json"
-MAP_PATH = DATA_PATH / "spatial_error_map5G_3BS.png"
+RESULTS_FILE = DATA_PATH / "Positionsvergleich/Messungen" /file_name
+MAP_PATH = DATA_PATH / f"Positionsvergleich/Auswertungen/spatial_error_{suffix}.png"
 
 # Schwellenwerte für die Fehler-Kategorien (in Metern)
-LOW_THRESHOLD = 1     # < 0.5m  -> gut (grün)
-HIGH_THRESHOLD = 2.5    # 0.5-1.5m -> mittel (gelb), > 1.5m -> schlecht (rot)
+LOW_THRESHOLD = 1     # < 1m  -> gut (grün)
+HIGH_THRESHOLD = 2.5    # 1-2.5m -> mittel (gelb), > 2.5m -> schlecht (rot)
 
 COLOR_GOOD = "#2ca02c"     # grün
 COLOR_MEDIUM = "#f2c94c"   # gelb

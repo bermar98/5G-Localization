@@ -31,9 +31,12 @@ import matplotlib.pyplot as plt
 from scipy.spatial import cKDTree
 
 # ---- Konfiguration ----
+file_name = "fingerprints_Grundmessung.json"
+
 BASE_DIR   = Path(__file__).resolve().parent
-INPUT_PATH  = BASE_DIR / "fingerprints_Grundmessung.json"
-OUTPUT_DIR = BASE_DIR 
+INPUT_PATH  = BASE_DIR / "Messungen" / file_name
+OUTPUT_DIR = BASE_DIR / "Auswertung"
+suffix = Path(file_name).stem.removeprefix("fingerprints_")
 
 GRID_CELL_SIZE = 0.5          # Meter, fuer Dichte-Heatmap
 NEIGHBOR_RADIUS = 0.5         # Meter, fuer "raeumlich benachbarte Messungen"
@@ -102,7 +105,7 @@ def analyze_spatial_distribution(positions: np.ndarray):
     fig.colorbar(sc, ax=axes[2], label="Distanz zum nächsten Nachbarn (m)")
 
     fig.tight_layout()
-    fig.savefig(OUTPUT_DIR / "analysis_spatial_distribution.png", dpi=150)
+    fig.savefig(OUTPUT_DIR / f"analysis_spatial_distribution_{suffix}.png", dpi=150)
     plt.close(fig)
 
     return report
@@ -185,7 +188,7 @@ def analyze_rssi_variation(data, positions: np.ndarray):
     axes[1].legend(fontsize=8)
 
     fig.tight_layout()
-    fig.savefig(OUTPUT_DIR / "analysis_rssi_variation.png", dpi=150)
+    fig.savefig(OUTPUT_DIR / f"analysis_rssi_variation_{suffix}.png", dpi=150)
     plt.close(fig)
 
     return merged
@@ -205,7 +208,7 @@ def main():
         "rssi_per_bssid": json.loads(rssi_stats_df.to_json(orient="records")),
     }
 
-    with open(OUTPUT_DIR / "raw_data_analysis_report.json", "w", encoding="utf-8") as f:
+    with open(OUTPUT_DIR / f"raw_data_analysis_report_{suffix}.json", "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
 
     # Kurze Konsolenausgabe der wichtigsten Kennzahlen

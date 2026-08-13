@@ -10,7 +10,7 @@ from pathlib import Path
 
 print(Path(__file__).resolve())
 BASE_DIR = Path(__file__).parent
-DATA_PATH = BASE_DIR / "data" / "fingerprints.json"
+DATA_PATH = BASE_DIR / "data/fingerprints/Messungen/fingerprints.json"
 
 # --- Konfiguration für den Job-API-Aufruf ---
 API_BASE_URL = "https://192.168.10.1:9089"

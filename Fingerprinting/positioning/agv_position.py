@@ -19,9 +19,9 @@ class AGVPosition:
         }
 
     def get_position(self):
-        
+              
     
-
+        
         try:
 
             response = requests.get(
@@ -44,7 +44,6 @@ class AGVPosition:
                 "theta": pos["theta"]
             }
         
-
         except Exception as e:
 
             print("Fehler bei Positionsabfrage:", e)

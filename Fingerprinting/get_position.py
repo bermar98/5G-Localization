@@ -10,7 +10,7 @@ from positioning.agv_position import AGVPosition
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "data"
-RESULTS_FILE = DATA_PATH / "position_comparisons.json"
+RESULTS_FILE = DATA_PATH / "Positionsvergleich/Messungen/position_comparisons_Systemtest.json"
 
 
 class PositionComparator:
@@ -92,6 +92,6 @@ def main():
         comparator.save_result(result)
         
         
-        time.sleep(5)
+        time.sleep(20)
 if __name__ == "__main__":
     main()
