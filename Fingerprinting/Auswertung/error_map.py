@@ -13,6 +13,13 @@ DATA_PATH = BASE_DIR / "data"
 RESULTS_FILE = DATA_PATH / "Positionsvergleich/Messungen" /file_name
 MAP_PATH = DATA_PATH / f"Positionsvergleich/Auswertungen/spatial_error_{suffix}.png"
 
+# --- Schriftgrößen (zentral anpassbar) ---
+FONTSIZE_ANNOTATION = 11    # Fehlerwerte an den Messpunkten
+FONTSIZE_STATS      = 11   # Statistikbox unten links
+FONTSIZE_LABELS     = 11   # Achsenbeschriftungen
+FONTSIZE_TITLE      = 12   # Titel
+FONTSIZE_LEGEND     = 11   # Legende
+
 # Schwellenwerte für die Fehler-Kategorien (in Metern)
 LOW_THRESHOLD = 1     # < 1m  -> gut (grün)
 HIGH_THRESHOLD = 2.5    # 1-2.5m -> mittel (gelb), > 2.5m -> schlecht (rot)
@@ -78,16 +85,95 @@ def plot_spatial_error_map(data, save_path=MAP_PATH, show=True, annotate_values=
     )
 
     if annotate_values:
-        for x, y, e in zip(agv_x, agv_y, errors):
+        CLUSTER_THRESH  = 0.35   # m  – Punkte enger als dies → Cluster
+        ARROW_LEN       = 26     # pt – Abstand Text zum Punkt
+        TEXT_W          = 52     # pt – geschätzte Textbreite (4 Zeichen)
+        TEXT_H          = 14     # pt – geschätzte Texthöhe
+        POINT_RADIUS    = 10     # pt – Radius der Scatter-Kreise (s=140 → r≈7pt, +Puffer)
+
+        # 16 Richtungen – dicht gesät für bessere Auswahl
+        angles_deg = [90, 45, 135, 0, 180, 315, 225, 270,
+                      60, 120, 30, 150, 330, 210, 300, 240]
+        directions = [(np.cos(np.radians(a)), np.sin(np.radians(a)))
+                      for a in angles_deg]
+
+        # Belegungsrechtecke: (cx, cy, w, h) in Pixel
+        occupied = []
+
+        def rect_collides(cx, cy, w, h):
+            """Prüft ob ein Rechteck (cx,cy,w,h) mit bestehenden Rechtecken kollidiert."""
+            for ox, oy, ow, oh in occupied:
+                if (abs(cx - ox) < (w + ow) / 2 + 4 and
+                        abs(cy - oy) < (h + oh) / 2 + 4):
+                    return True
+            return False
+
+        # Cluster bilden
+        used = [False] * len(agv_x)
+        clusters = []
+        for i in range(len(agv_x)):
+            if used[i]:
+                continue
+            group = [i]
+            used[i] = True
+            for j in range(len(agv_x)):
+                if not used[j]:
+                    d = np.sqrt((agv_x[i]-agv_x[j])**2 + (agv_y[i]-agv_y[j])**2)
+                    if d < CLUSTER_THRESH:
+                        group.append(j)
+                        used[j] = True
+            clusters.append(group)
+
+        # Alle Scatter-Punkte als belegte Kreise vorregistrieren
+        fig.canvas.draw()
+        trans = ax.transData
+        for xi, yi in zip(agv_x, agv_y):
+            px, py = trans.transform((xi, yi))
+            occupied.append((px, py, POINT_RADIUS * 2, POINT_RADIUS * 2))
+
+        for group in clusters:
+            # Pro Cluster nur den Punkt mit dem größten Fehler beschriften
+            rep = max(group, key=lambda i: errors[i])
+            x, y, e = agv_x[rep], agv_y[rep], errors[rep]
+            px, py = trans.transform((x, y))
+
+            best_off = None
+            for dx_n, dy_n in directions:
+                # Text-Mittelpunkt in Pixel
+                tx = px + dx_n * (ARROW_LEN + TEXT_W / 2)
+                ty = py + dy_n * (ARROW_LEN + TEXT_H / 2)
+                if not rect_collides(tx, ty, TEXT_W, TEXT_H):
+                    best_off = (dx_n * ARROW_LEN, dy_n * ARROW_LEN, tx, ty)
+                    break
+
+            if best_off is None:
+                # Alle Richtungen belegt → trotzdem platzieren (oben)
+                best_off = (0, ARROW_LEN,
+                            px, py + ARROW_LEN + TEXT_H / 2)
+
+            off_x, off_y, tx, ty = best_off
+            occupied.append((tx, ty, TEXT_W, TEXT_H))
+
+            has_arrow = len(group) > 1 or abs(off_x) > 10 or abs(off_y) > 10
             ax.annotate(
-                f"{e:.2f}", (x, y),
-                textcoords="offset points", xytext=(0, 9),
-                ha="center", fontsize=8, zorder=4
+                f"{e:.2f}",
+                (x, y),
+                textcoords="offset points",
+                xytext=(off_x, off_y),
+                ha="center",
+                va="bottom" if off_y >= 0 else "top",
+                fontsize=FONTSIZE_ANNOTATION,
+                zorder=5,
+                arrowprops=dict(
+                    arrowstyle="-",
+                    color="gray",
+                    lw=0.6,
+                ) if has_arrow else None,
             )
 
-    ax.set_xlabel("x (m)")
-    ax.set_ylabel("y (m)")
-    ax.set_title(f"Räumliche Fehlerkarte der Positionsschätzung (n={len(data)} Messungen)")
+    ax.set_xlabel("x (m)", fontsize=FONTSIZE_LABELS)
+    ax.set_ylabel("y (m)", fontsize=FONTSIZE_LABELS)
+    ax.set_title(f"Räumliche Fehlerkarte der Positionsschätzung (n={len(data)} Messungen)", fontsize=FONTSIZE_TITLE)
     ax.axis("equal")
     ax.grid(True, alpha=0.3)
 
@@ -96,7 +182,7 @@ def plot_spatial_error_map(data, save_path=MAP_PATH, show=True, annotate_values=
         mpatches.Patch(color=COLOR_MEDIUM, label=f"{LOW_THRESHOLD:.1f}\u2013{HIGH_THRESHOLD:.1f} m"),
         mpatches.Patch(color=COLOR_BAD, label=f"> {HIGH_THRESHOLD:.1f} m"),
     ]
-    ax.legend(handles=legend_handles, title="Fehler", loc="upper right")
+    ax.legend(handles=legend_handles, title="Fehler", loc="upper right", fontsize=FONTSIZE_LEGEND)
 
     stats_text = (
         f"Mittlerer Fehler: {mean_error:.2f} m\n"
@@ -105,7 +191,7 @@ def plot_spatial_error_map(data, save_path=MAP_PATH, show=True, annotate_values=
     ax.text(
         0.02, 0.02, stats_text,
         transform=ax.transAxes,
-        fontsize=11,
+        fontsize=FONTSIZE_STATS,
         verticalalignment="bottom",
         bbox=dict(boxstyle="round", facecolor="white", alpha=0.85, edgecolor="gray"),
     )

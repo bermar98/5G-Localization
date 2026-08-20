@@ -13,6 +13,14 @@ RESULTS_FILE = DATA_PATH / "Positionsvergleich/Messungen" /file_name
 PLOT_PATH = DATA_PATH / f"Positionsvergleich/Auswertungen/position_comparisons_{suffix}.png"
 
 
+# --- Schriftgrößen (zentral anpassbar) ---
+FONTSIZE_STATS   = 11   # Statistikbox unten links
+FONTSIZE_LABELS  = 11   # Achsenbeschriftungen
+FONTSIZE_TITLE   = 12   # Titel
+FONTSIZE_LEGEND  = 11   # Legende
+FONTSIZE_TICKS   = 11   # Achsen-Ticks
+
+
 def load_comparisons(path=RESULTS_FILE):
     """Lädt die gespeicherten Positionsvergleiche aus der JSON-Datei."""
     path = Path(path)
@@ -58,15 +66,16 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
         ax.plot(
             [agv_x[i], est_x[i]],
             [agv_y[i], est_y[i]],
-            color="gray", alpha=0.4, linewidth=0.8, zorder=1
+            color="gray", alpha=0.4, linewidth=1.0, zorder=1
         )
 
-    ax.set_xlabel("x (m)")
-    ax.set_ylabel("y (m)")
-    ax.set_title(f"Positionsvergleich: FTS vs. Schätzung (n={len(data)} Messungen)")
-    ax.legend(loc="upper right")
+    ax.set_xlabel("x (m)", fontsize=FONTSIZE_LABELS)
+    ax.set_ylabel("y (m)", fontsize=FONTSIZE_LABELS)
+    ax.set_title(f"Positionsvergleich: FTS vs. Schätzung (n={len(data)} Messungen)", fontsize=FONTSIZE_TITLE)
+    ax.legend(loc="upper right", fontsize=FONTSIZE_LEGEND)
     ax.axis("equal")
     ax.grid(True, alpha=0.3)
+    ax.tick_params(axis="both", labelsize=FONTSIZE_TICKS)
 
     stats_text = (
         f"Mittlerer Fehler: {mean_error:.2f} m\n"
@@ -76,7 +85,7 @@ def plot_positions(data, save_path=PLOT_PATH, show=True):
     ax.text(
         0.02, 0.02, stats_text,
         transform=ax.transAxes,
-        fontsize=11,
+        fontsize=FONTSIZE_STATS,
         verticalalignment="bottom",
         bbox=dict(boxstyle="round", facecolor="white", alpha=0.85, edgecolor="gray"),
     )
