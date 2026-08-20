@@ -25,7 +25,7 @@ import matplotlib.image as mpimg
 from scipy.spatial import cKDTree
 
 # ── Konfiguration ─────────────────────────────────────────────────────
-file_name = "fingerprints_langsame_fahrt.json"
+file_name = "fingerprints_Grundmessung.json"
 
 BASE_DIR   = Path(__file__).resolve().parent
 INPUT_PATH  = BASE_DIR / "Messungen" / file_name
@@ -34,7 +34,7 @@ suffix      = Path(file_name).stem.removeprefix("fingerprints_")
 
 # Hallenkarte
 MAP_FILE   = BASE_DIR.parent / "FTS_Map.png"
-MAP_EXTENT = [-8, 11.0, -9.7, 6.2]   # [x_min, x_max, y_min, y_max] in Metern
+MAP_EXTENT = [-8, 11.0, -9.7, 6.3]   # [x_min, x_max, y_min, y_max] in Metern
 MAP_ALPHA  = 0.25
 
 GRID_CELL_SIZE           = 0.5
@@ -43,7 +43,7 @@ MIN_NEIGHBORS_FOR_STATS  = 3
 
 # ── Schriftgrößen ─────────────────────────────────────────────────────
 FONTSIZE_TITLE  = 11
-FONTSIZE_LABELS = 10
+FONTSIZE_LABELS = 11
 FONTSIZE_TICKS  = 11
 FONTSIZE_LEGEND = 11
 FONTSIZE_CBAR   = 11

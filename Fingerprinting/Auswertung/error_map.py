@@ -7,7 +7,7 @@ import matplotlib.patches as mpatches
 import matplotlib.image as mpimg
 import numpy as np
 
-file_name = "position_comparison_Grundmessung.json"
+file_name = "position_comparisons_12.08.optimiertesModell.json"
 suffix    = Path(file_name).stem.removeprefix("position_comparison_")
 BASE_DIR     = Path(__file__).resolve().parent.parent
 DATA_PATH    = BASE_DIR / "data"
@@ -18,7 +18,7 @@ MAP_PATH     = DATA_PATH / f"Positionsvergleich/Auswertungen/spatial_error_{suff
 MAP_FILE = DATA_PATH / "FTS_Map.png"
 
 # --- Karten-Kalibrierung ---
-MAP_EXTENT = [-8, 11.0, -9.7, 6.2]  # [x_min, x_max, y_min, y_max] in Metern
+MAP_EXTENT = [-8, 11.0, -9.7, 6.3]  # [x_min, x_max, y_min, y_max] in Metern
 MAP_ALPHA  = 0.25   # Transparenz
 
 # --- Fehler-Schwellenwerte ---
