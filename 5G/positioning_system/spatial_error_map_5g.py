@@ -26,6 +26,13 @@ COLOR_GOOD   = "#2ca02c"  # grün
 COLOR_MEDIUM = "#f2c94c"  # gelb
 COLOR_BAD    = "#d62728"  # rot
 
+# --- Schriftgrößen ---
+FONTSIZE_ANNOTATION = 7
+FONTSIZE_STATS      = 10
+FONTSIZE_LABELS     = 11
+FONTSIZE_TITLE      = 12
+FONTSIZE_LEGEND     = 10
+FONTSIZE_TICKS      = 10
 
 def load_results(path=RESULTS_FILE):
     path = Path(path)
@@ -80,11 +87,11 @@ def plot_spatial_error_map(results, save_path=MAP_PATH,
                 ha="center", fontsize=8, zorder=4
             )
 
-    ax.set_xlabel("x (m)")
-    ax.set_ylabel("y (m)")
+    ax.set_xlabel("x (m)", fontsize=FONTSIZE_LABELS)
+    ax.set_ylabel("y (m)", fontsize=FONTSIZE_LABELS)
     ax.set_title(
         f"Räumliche Fehlerkarte der 5G DL-TDoA Positionsschätzung "
-        f"(n={len(results)} Messpunkte)"
+        f"(n={len(results)} Messpunkte)", fontsize=FONTSIZE_TITLE
     )
     ax.axis("equal")
     ax.grid(True, alpha=0.3)
@@ -98,7 +105,7 @@ def plot_spatial_error_map(results, save_path=MAP_PATH,
                        label=f"> {HIGH_THRESHOLD:.1f} m (schlecht)"),
     ]
     ax.legend(handles=legend_handles, title="Fehler",
-              loc="upper right")
+              loc="upper right", fontsize=FONTSIZE_LEGEND)
 
     stats_text = (
         f"Mittlerer Fehler: {mean_error:.2f} m\n"
@@ -107,7 +114,7 @@ def plot_spatial_error_map(results, save_path=MAP_PATH,
     ax.text(
         0.02, 0.02, stats_text,
         transform=ax.transAxes,
-        fontsize=11,
+        fontsize=FONTSIZE_STATS,
         verticalalignment="bottom",
         bbox=dict(boxstyle="round", facecolor="white",
                   alpha=0.85, edgecolor="gray"),

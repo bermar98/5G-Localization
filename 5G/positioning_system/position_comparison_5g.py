@@ -13,10 +13,21 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-BASE_DIR    = Path(__file__).resolve().parent.parent.parent
-RESULTS_FILE = BASE_DIR / "output" / "grid_results.json"
-PLOT_PATH   = BASE_DIR / "output" / "position_comparison_5g.png"
 
+
+file_name = "grid_results_5BS.json"
+suffix    = Path(file_name).stem.removeprefix("grid_results_")
+BASE_DIR    = Path(__file__).resolve().parent.parent.parent
+RESULTS_FILE = BASE_DIR / "output" / file_name
+PLOT_PATH   = BASE_DIR / "output" / "position_comparison_5g_5BS.png"
+
+
+# --- Schriftgrößen ---
+FONTSIZE_STATS  = 11
+FONTSIZE_LABELS = 11
+FONTSIZE_TITLE  = 12
+FONTSIZE_LEGEND = 11
+FONTSIZE_TICKS  = 11
 
 def load_results(path=RESULTS_FILE):
     path = Path(path)
@@ -59,14 +70,14 @@ def plot_positions(results, save_path=PLOT_PATH, show=True):
         ax.plot(
             [agv_x[i], est_x[i]],
             [agv_y[i], est_y[i]],
-            color="gray", alpha=0.4, linewidth=0.8, zorder=1
+            color="gray", alpha=0.5, linewidth=0.8, zorder=1
         )
 
-    ax.set_xlabel("x (m)")
-    ax.set_ylabel("y (m)")
+    ax.set_xlabel("x (m)", fontsize=FONTSIZE_LABELS)
+    ax.set_ylabel("y (m)", fontsize=FONTSIZE_LABELS)
     ax.set_title(
         f"Positionsvergleich: Wahre vs. geschätzte Position "
-        f"(n={len(results)} Messpunkte)"
+        f"(n={len(results)} Messpunkte)", fontsize=FONTSIZE_TITLE
     )
     ax.legend(loc="upper right")
     ax.axis("equal")
@@ -80,7 +91,7 @@ def plot_positions(results, save_path=PLOT_PATH, show=True):
     ax.text(
         0.02, 0.02, stats_text,
         transform=ax.transAxes,
-        fontsize=11,
+        fontsize=FONTSIZE_STATS,
         verticalalignment="bottom",
         bbox=dict(boxstyle="round", facecolor="white", alpha=0.85, edgecolor="gray"),
     )

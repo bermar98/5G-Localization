@@ -140,26 +140,24 @@ class SimulatedSource(DataSource):
         """
         n = config.N_BS
         rng = np.random.default_rng(config.RNG_SEED)
-        # positions = np.array([[ 50.0,  0.0, 25.0], [-35,  35, 25.0], [-35,  -35, 25.0]])
         
-        # positions = np.array([[ 50.0,  0.0, 25.0], [15.5,  47.5, 25.0], [-40.45, 29.38, 25.0], [-40.45,  -29.38, 25.0], [15.5,  -47.5, 25.0]])
         N = 5      # Anzahl der Punkte
-        r = 100      # Radius
+        r = 2500      # Radius
 
         positions = []
 
-        for i in range(1, N+1):
+        '''for i in range(1, N+1):
             x = r * np.cos(2 * np.pi * i / N)
             y = r * np.sin(2 * np.pi * i / N)
-            positions.append((x, y, 6.0))             
-        '''for idx in range(1, n+1):
+            positions.append((x, y, 25.0)) '''            
+        for idx in range(1, n+1):
             phi = (idx * 2*np.pi/n
                    + rng.uniform() * 2*np.pi/(2*n)
                    - 2*np.pi/(2*n))
-            r   = rng.integers(0, 101) + idx * 50/n
+            r   = rng.integers(0, 1001) + 4000 + idx * 2500/n
             x   = r * np.cos(phi)
             y   = r * np.sin(phi)
-            positions.append([x, y, config.BS_HEIGHT_M])'''
+            positions.append([x, y, config.BS_HEIGHT_M])
         return np.array(positions)
 
     def _compute_delays(self):

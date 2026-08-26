@@ -37,15 +37,15 @@ def plotPRSCorr(corr_list, sample_rate, gnb_labels=None):
     fig, ax = plt.subplots(figsize=(10, 4))
     t = np.arange(len(corr_list[0])) / sample_rate * 1e6  # µs
     for i, corr in enumerate(corr_list):
-        lbl = gnb_labels[i] if gnb_labels else f"gNB{i+1}"
+        lbl =  f"Basisstation {i+1}"
         ax.plot(t, np.abs(corr), color=_COLORS[i%len(_COLORS)],
                 lw=1.5, label=lbl)
         peak = np.argmax(np.abs(corr))
         ax.scatter(t[peak], np.abs(corr[peak]),
                    color=_COLORS[i%len(_COLORS)], s=60, zorder=5)
-    ax.set_xlabel("Zeit (µs)"); ax.set_ylabel("Korrelationsbetrag")
-    ax.set_title("PRS-Kreuzkorrelation aller gNBs")
-    ax.legend(fontsize=8); ax.grid(True, alpha=0.3)
+    ax.set_xlabel("Zeit (µs)", fontsize=11); ax.set_ylabel("Korrelationsbetrag", fontsize=11)
+    ax.set_title("PRS-Kreuzkorrelation aller Basisstationen", fontsize=11)
+    ax.legend(fontsize=11); ax.grid(True, alpha=0.3)
     plt.tight_layout()
     if config.VIZ_SAVE_PLOTS:
         _save(fig, "prs_correlation.png")
@@ -84,10 +84,10 @@ def plotPositionsAndHyperbolaCurves(gnb_pos, ue_pos_true, est_pos,
                label=f"Geschätzte Position")
 
     err = np.linalg.norm(est_pos[:2] - ue_pos_true[:2])
-    ax.set_xlabel("x-Position (Meter)")
-    ax.set_ylabel("y-Position (Meter)")
+    ax.set_xlabel("x-Position (Meter)", fontsize=11)
+    ax.set_ylabel("y-Position (Meter)", fontsize=11)
     ax.set_title(f"DL-TDoA mit PRS – Positionierungsfehler: {err:.1f} m",
-                 fontweight='bold')
+                 fontweight='bold', fontsize=11)
     ax.legend(fontsize=8, loc='upper right')
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
@@ -145,7 +145,7 @@ def plot_prs_slot_overview(
 
     slot_ms = 1000 / (scs_hz / 1e3)   # Slot-Länge in ms
 
-    fig, ax = plt.subplots(figsize=(12, 4))
+    fig, ax = plt.subplots(figsize=(8, 4))
 
     for gnb_idx in range(n_bs):
         for slot_idx in range(total_slots):
@@ -159,7 +159,7 @@ def plot_prs_slot_overview(
                 ))
                 ax.text(slot_idx + 0.5, gnb_idx + 0.5, 'PRS',
                         ha='center', va='center',
-                        fontsize=8, color='white', fontweight='bold', zorder=3)
+                        fontsize=9, color='white', fontweight='bold', zorder=3)
 
             elif slot_idx not in prs_slot_offsets[:n_bs]:
                 # PDSCH-Slot
@@ -170,16 +170,15 @@ def plot_prs_slot_overview(
 
     # y-Achse: gNB-Labels
     ax.set_yticks(np.arange(n_bs) + 0.5)
-    ax.set_yticklabels([f'gNB {i+1}  (Slot {prs_slot_offsets[i % len(prs_slot_offsets)]})'
-                        for i in range(n_bs)], fontsize=9)
+    ax.set_yticklabels([f'Basisstation {i+1}'
+                        for i in range(n_bs)], fontsize=11)
 
     # x-Achse: Slot-Nummern
     ax.set_xticks(np.arange(total_slots) + 0.5)
     ax.set_xticklabels([str(s) for s in range(total_slots)], fontsize=8)
-    ax.set_xlabel(f"Slot-Index  (Slot-Länge = {slot_ms:.2f} ms)", fontsize=10)
+    ax.set_xlabel(f"Slot-Index", fontsize=11)
     ax.set_title(
-        f"PRS Slot-Konfiguration – 1 Frame ({total_slots * slot_ms:.0f} ms) | "
-        f"SCS = {scs_hz/1e3:.0f} kHz | {n_bs} gNBs",
+        f"PRS Slot-Konfiguration",
         fontsize=11, fontweight='bold'
     )
 
@@ -191,9 +190,9 @@ def plot_prs_slot_overview(
     handles = [plt.Rectangle((0,0), 1, 1, color=_GNB_COLORS[i], alpha=0.85)
                for i in range(n_bs)]
     handles.append(plt.Rectangle((0,0), 1, 1, color='gray', alpha=0.15))
-    labels  = [f'gNB {i+1} PRS' for i in range(n_bs)] + ['PDSCH']
-    ax.legend(handles, labels, loc='upper right', fontsize=8,
-              ncol=min(n_bs+1, 4), framealpha=0.9)
+    labels  = [f'Basisstation {i+1} PRS' for i in range(n_bs)] + ['PDSCH']
+    ax.legend(handles, labels, loc='lower right', fontsize=11,
+              ncol=1, framealpha=0.9)
 
     plt.tight_layout()
     if config.VIZ_SAVE_PLOTS:
