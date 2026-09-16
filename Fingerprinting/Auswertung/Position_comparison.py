@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 
-file_name = "position_comparisons_12.08.optimiertesModell.json"
-suffix    = Path(file_name).stem.removeprefix("position_comparison_")
+file_name = "position_comparisons_Trainingsdaten.json"
+suffix    = Path(file_name).stem.removeprefix("position_comparisons_")
 BASE_DIR     = Path(__file__).resolve().parent.parent
 DATA_PATH    = BASE_DIR / "data"
 RESULTS_FILE = DATA_PATH / "Positionsvergleich/Messungen" / file_name
