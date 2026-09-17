@@ -6,16 +6,16 @@ import joblib
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-from dataset_builder import DatasetBuilder
-from data_splitter import split_and_save
+from dataset_builder_Zeitstempel import DatasetBuilder
+from data_splitter_Zeitstempel import split_and_save
 from model import IndoorLocalizationModel
 
 BASE_DIR = Path(__file__).parent
 DATA_PATH = BASE_DIR.parent / "data" / "fingerprints" / "Messungen" / "fingerprints_langsame_fahrt.json"
-MODEL_PATH = BASE_DIR.parent / "models" / "trained_model.keras"
-SCALER_PATH = BASE_DIR.parent / "models" / "scaler.pkl"
-HISTORY_PATH = BASE_DIR.parent / "models" / "history.json"
-FEATURE_CONFIG_PATH = BASE_DIR.parent / "models" / "feature_config.json"
+MODEL_PATH = BASE_DIR.parent / "models" / "trained_model_Zeitstempel.keras"
+SCALER_PATH = BASE_DIR.parent / "models" / "scaler_Zeitstempel.pkl"
+HISTORY_PATH = BASE_DIR.parent / "models" / "history_Zeitstempel.json"
+FEATURE_CONFIG_PATH = BASE_DIR.parent / "models" / "feature_config_Zeitstempel.json"
 SPLITS_DIR = BASE_DIR.parent / "data" / "splits"
 
 callbacks = [
@@ -23,6 +23,7 @@ callbacks = [
     ModelCheckpoint(str(MODEL_PATH), save_best_only=True, monitor='val_loss')
 ]
 USE_PRESENCE_FEATURE = True
+USE_TIME_FEATURE = True
 
 def main():
 
@@ -31,7 +32,11 @@ def main():
         data = json.load(file)
 
     # 2. Split auslagern an data_splitter
-    X_train, X_test, y_train, y_test, all_bssids = split_and_save(data, use_presence_feature=USE_PRESENCE_FEATURE)
+    X_train, X_test, y_train, y_test, all_bssids = split_and_save(
+        data,
+        use_presence_feature=USE_PRESENCE_FEATURE,
+        use_time_feature=USE_TIME_FEATURE
+    )
 
     # Normalisierung
     scaler = MinMaxScaler(feature_range=(0, 1))
@@ -41,8 +46,8 @@ def main():
     # Scaler speichern
     MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(scaler, SCALER_PATH)
-    
-    
+
+
     with open(SPLITS_DIR / "feature_config.json", "r") as f:
         feature_config = json.load(f)
     feature_config["scaler_type"] = "MinMaxScaler"
@@ -60,7 +65,7 @@ def main():
               batch_size=16,
               validation_data=(X_test, y_test),
               callbacks=callbacks)
- 
+
     # History für Visualisierung speichern (Loss/MAE je Epoche)
     with open(HISTORY_PATH, "w", encoding="utf-8") as f:
         json.dump(history.history, f)
@@ -74,7 +79,7 @@ def main():
     print(f"Mittlerer Fehler: {distances.mean():.2f}m")
     print(f"Max. Fehler:      {distances.max():.2f}m")
     print(f"Min. Fehler:      {distances.min():.2f}m")
-    
+
 
 
 if __name__ == "__main__":

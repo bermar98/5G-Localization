@@ -5,7 +5,7 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Modell laden (ebenfalls aus dem Skript-Ordner)
-model_path = os.path.join(script_dir, "trained_model.keras")
+model_path = os.path.join(script_dir, "trained_model_Zeitstempel.keras")
 model = tf.keras.models.load_model(model_path)
 
 # Converter erstellen
@@ -13,7 +13,7 @@ converter = tf.lite.TFLiteConverter.from_keras_model(model)
 tflite_model = converter.convert()
 
 # Speichern im gleichen Ordner wie das Skript
-output_path = os.path.join(script_dir, "modell.tflite")
+output_path = os.path.join(script_dir, "modell_Zeitstempel.tflite")
 with open(output_path, "wb") as f:
     f.write(tflite_model)
 

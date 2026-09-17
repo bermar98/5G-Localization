@@ -3,5 +3,6 @@
   "use_time_feature": true,
   "sentinel_rssi": -100,
   "bssid_count": 51,
-  "feature_dim": 104
+  "feature_dim": 104,
+  "scaler_type": "MinMaxScaler"
 }
